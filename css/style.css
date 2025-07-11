@@ -99,20 +99,6 @@ footer {
   color: #fff;
 }
 
-.hero__content .default__button {
-  border-radius: 20px;
-  padding: 10px 60px;
-  height: 58px;
-  background: linear-gradient(180deg, var(--button-color) 0%, #3ef969 100%);
-
-  font-weight: 700;
-  font-size: 18px;
-  text-transform: uppercase;
-  text-align: center;
-  color: #070707;
-  border: none;
-}
-
 header {
   width: 100%;
   display: flex;
@@ -170,6 +156,20 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.hero__content .default__button {
+  border-radius: 20px;
+  padding: 10px 60px;
+  height: 58px;
+  background: linear-gradient(180deg, var(--button-color) 0%, #3ef969 100%);
+
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #070707;
+  border: none;
 }
 
 .hero__content {
@@ -335,6 +335,7 @@ header {
   display: flex;
   flex-direction: column;
   padding: 80px 0;
+  gap: 40px;
 }
 
 .games__header h3 {
@@ -769,18 +770,25 @@ header {
   }
 }
 
-.footer-lines {
+.footer-lines:not(:last-child) {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 16px;
-  padding: 0 16px;
+}
+
+.footer-lines:last-child {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
 }
 
 @media (max-width: 991px) {
   .footer-lines {
     flex-direction: column;
     align-items: center;
+    justify-content: start;
   }
 }
 
@@ -841,6 +849,14 @@ header {
   font-size: 14px;
   text-transform: capitalize;
   color: rgba(255, 255, 255, 0.8);
+}
+
+@media (max-width: 991px) {
+  .footer-cookie-text-title,
+  .footer-cookie-text-description {
+    text-align: center;
+    align-self: center;
+  }
 }
 
 /* универсальные стили */
