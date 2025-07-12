@@ -308,53 +308,64 @@ footer {
 
 /* ===============================================================> */
 /* стили для конкретной страницы */
-.faq {
+.contact {
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding: 40px 0;
+  padding: 80px 0;
   background: #0e262a;
 }
 
-.faq__content ul {
+.contact__content {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  align-items: center;
+  gap: 30px;
   position: relative;
-  width: 100%;
-  box-sizing: border-box;
   padding: 0 16px;
 }
 
-.faq__item {
+.contact__content form {
   display: flex;
   flex-direction: column;
-  border: 1px solid #fff;
-  border-radius: 22px;
-  background: linear-gradient(180deg, #1e1e2f 0%, #0a2528 100%);
-  padding: 20px;
-  gap: 16px;
-  align-self: stretch;
+  gap: 20px;
   width: 100%;
-  max-width: 100%;
-  box-sizing: border-box;
+  max-width: 900px;
 }
 
-.faq_name {
-  font-family: var(--font-family);
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 120%;
-  text-transform: uppercase;
+.contact__content form input,
+.contact__content form textarea {
+  padding: 12px 16px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: #fff;
   color: #fff;
-}
-
-.faq_answer {
   font-family: var(--second-family);
   font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  color: #fff;
+  font-size: 18px;
+  line-height: 100%;
+  color: #0c0c0c;
+}
+.contact__content form textarea {
+  height: 80px;
+}
+
+.form__button {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 20px;
+  padding: 10px 60px;
+  height: 58px;
+  background: linear-gradient(180deg, #28a745 0%, #3ef969 100%);
+  box-sizing: border-box;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 211%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #070707;
 }
 /* ===============================================================> */
 /* универсальные стили */
