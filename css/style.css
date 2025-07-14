@@ -144,7 +144,7 @@ header {
 }
 
 .hero {
-  background-image: url(../images/decorativeContent/hero.png);
+  background-image: url("/images/decorativeContent/hero.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
