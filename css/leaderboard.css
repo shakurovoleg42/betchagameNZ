@@ -32,9 +32,6 @@ ul {
   box-sizing: border-box;
   overflow: hidden;
 }
-li {
-  list-style: none;
-}
 button {
   cursor: pointer;
 }
@@ -50,15 +47,6 @@ body {
 html,
 body {
   overflow-x: hidden;
-}
-
-footer {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #1e1e2f;
-  padding: 40px 0;
 }
 
 .container {
@@ -143,60 +131,6 @@ header {
   }
 }
 
-:root {
-  --font-family: "Rubik", sans-serif;
-  --second-family: "Inter", sans-serif;
-  --button-color: #28a745;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  width: auto;
-  height: auto;
-  color: #fff;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-p {
-  margin: 0;
-  width: auto;
-  height: auto;
-}
-ul {
-  padding: 0;
-  margin: 0;
-  width: auto;
-  display: block;
-  box-sizing: border-box;
-  overflow: hidden;
-}
-li {
-  list-style: none;
-}
-button {
-  cursor: pointer;
-}
-
-body {
-  display: block;
-  margin: 0;
-  padding: 0;
-  background: #070707;
-  color: #fff;
-  width: auto;
-}
-html,
-body {
-  overflow-x: hidden;
-}
-
 footer {
   width: 100%;
   display: flex;
@@ -218,7 +152,7 @@ footer {
   }
 }
 
-.footer-lines:not(:last-child) {
+.footer-lines {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -291,12 +225,21 @@ footer {
 }
 
 .footer-cookie-text-description {
+  width: 100%;
   max-width: 610px;
   font-family: var(--second-family);
   font-weight: 400;
   font-size: 14px;
   text-transform: capitalize;
   color: rgba(255, 255, 255, 0.8);
+}
+
+.footer_imgs {
+  width: 100%;
+  max-width: 610px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
 }
 
 @media (max-width: 991px) {

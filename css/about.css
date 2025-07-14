@@ -30,7 +30,7 @@ ul {
   width: auto;
   display: block;
   box-sizing: border-box;
-  overflow: visible;
+  overflow: hidden;
 }
 button {
   cursor: pointer;
@@ -152,7 +152,7 @@ footer {
   }
 }
 
-.footer-lines:not(:last-child) {
+.footer-lines {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -225,12 +225,21 @@ footer {
 }
 
 .footer-cookie-text-description {
+  width: 100%;
   max-width: 610px;
   font-family: var(--second-family);
   font-weight: 400;
   font-size: 14px;
   text-transform: capitalize;
   color: rgba(255, 255, 255, 0.8);
+}
+
+.footer_imgs {
+  width: 100%;
+  max-width: 610px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
 }
 
 @media (max-width: 991px) {
