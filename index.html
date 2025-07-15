@@ -4,19 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css//style.css" />
-    <title>Document</title>
-    <meta name="description" content="A brief description of the document." />
+    <title>Challenge Friends & Play Free – Social Casino & Prediction Games NZ</title>
+    <meta name="description" content="Join BetchaGame, New Zealand’s top social casino platform. Sign up, make predictions, earn points, and climb the leaderboard — all for fun, no real-money betting." />
   </head>
   <body>
+    <div class="popup-wrapper">
+      <div class="popup-overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-color: rgba(0, 0, 0, 0.5); z-index: 9999;"></div>
+      <div class="popup" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 99999;">
+        <div class="popup-content">
+          <h2>Welcome to BetchaGame!</h2>
+          <p>
+            Are you 18 or older?
+          </p>
+          <button class="default__button" id="popup-close">
+            Yes, I am over 18
+          </button>
+        </div>
+      </div>
+    </div>
+    
     <div class="page">
       <header class="">
         <div class="header-content container">
           <div>
-            <img
+            <a href="/">
+<img
               src="images/header-logo.svg"
               alt="Logo"
               style="width: 52px; height: 58px"
             />
+            </a>
+            
           </div>
           <nav>
             <ul class="nav__list">
@@ -39,7 +57,7 @@
         <section class="hero">
           <div class="hero__content container">
             <h1>Challenge your friends. Predict. Win.</h1>
-            <button class="default__button">Start Playing</button>
+            <a href="/play.html"><button class="default__button">Start Playing</button></a>
           </div>
         </section>
 
@@ -409,10 +427,13 @@
             </div>
           </div>
           <!-- fourth line -->
-          <div class="footer-lines" style="display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  align-items: center; justify-content:left;">
+          <div class="footer-lines" style="
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            align-items: center;
+            justify-content:left;"
+          >
             <div class="footer-cookie">
               <div class="footer-paragraphs">
                 <p class="footer-cookie-text-title word-wrapper">
@@ -422,8 +443,8 @@
                   If you or someone you know is showing signs of compulsive
                   behaviour or gaming-related stress, help is available:<br />
                   Gambling Helpline New Zealand <br />📞 0800 654 655 – Free,
-                  24/7 confidential support<br />🌐<a
-                    href="www.gamblinghelpline.co.nz"
+                  24/7 confidential support<br />🌐<a target="_blank"
+                    href="https://www.gamblinghelpline.co.nz"
                     >www.gamblinghelpline.co.nz</a
                   >
                 </p>
@@ -466,4 +487,6 @@
       </footer>
     </div>
   </body>
+  <script src="js/index.js"></script>
 </html>
+
