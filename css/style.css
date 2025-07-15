@@ -493,7 +493,8 @@ header {
   color: #070707;
 }
 .game_card_button:hover {
-  background: linear-gradient(180deg, #3ef969 0%, var(--button-color) 100%);
+  border: 1px solid #28a745;
+  background: inherit;
 }
 
 .leadership {
