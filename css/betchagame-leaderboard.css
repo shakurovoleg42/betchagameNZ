@@ -54,12 +54,12 @@ body {
   width: 100%;
 }
 
-.auth__buttons {
+.betchagame-auth__buttons {
   display: flex;
   gap: 8px;
 }
 
-.auth__buttons .default__button:not(:last-child) {
+.betchagame-auth__buttons .betchagame-default__button:not(:last-child) {
   border-radius: 20px;
   padding: 10px 40px;
   height: 46px;
@@ -72,7 +72,7 @@ body {
   color: #070707;
 }
 
-.auth__buttons .default__button:last-child {
+.betchagame-auth__buttons .betchagame-default__button:last-child {
   border: 1px solid var(--button-color);
   border-radius: 20px;
   padding: 10px 40px;
@@ -96,19 +96,19 @@ header {
   padding: 11.12px 0 11.13px 0;
 }
 
-.header-content {
+.betchagame-header-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 @media (max-width: 1220px) {
-  .header-content {
+  .betchagame-header-content {
     padding: 0 24px;
   }
 }
 
-.nav__list {
+.betchagame-nav__list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
@@ -122,11 +122,11 @@ header {
 }
 
 @media (max-width: 991px) {
-  .nav__list {
+  .betchagame-nav__list {
     display: none;
   }
 
-  .auth__buttons {
+  .betchagame-auth__buttons {
     display: none;
   }
 }
@@ -140,26 +140,26 @@ footer {
   padding: 40px 0;
 }
 
-.footer_content {
+.betchagame-footer_content {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
 
 @media (max-width: 991px) {
-  .footer_content {
+  .betchagame-footer_content {
     padding: 0 16px;
   }
 }
 
-.footer-lines {
+.betchagame-footer-lines {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 16px;
 }
 
-.footer-lines:last-child {
+.betchagame-footer-lines:last-child {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
@@ -167,21 +167,21 @@ footer {
 }
 
 @media (max-width: 991px) {
-  .footer-lines {
+  .betchagame-footer-lines {
     flex-direction: column;
     align-items: center;
     justify-content: start;
   }
 }
 
-.footer-lines .footer-logo {
+.betchagame-footer-lines .betchagame-footer-logo {
   display: flex;
   align-items: center;
   gap: 20px;
   text-align: center;
 }
 
-.footer-text-logo {
+.betchagame-footer-text-logo {
   border-left: 1px solid rgba(255, 255, 255, 0.8);
   padding: 10px;
   width: 365px;
@@ -191,7 +191,10 @@ footer {
   text-align: center;
 }
 
-.footer-lines .footer-logo .footer-text-logo p {
+.betchagame-footer-lines
+  .betchagame-footer-logo
+  .betchagame-footer-text-logo
+  p {
   font-family: var(--second-family);
   font-weight: 400;
   font-size: 14px;
@@ -199,19 +202,19 @@ footer {
 }
 
 @media (max-width: 991px) {
-  .footer-lines .nav__list {
+  .betchagame-footer-lines .betchagame-nav__list {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
-.footer-paragraphs {
+.betchagame-footer-paragraphs {
   display: flex;
   flex-direction: column;
   gap: 14px;
 }
 
-.footer-cookie-text-title {
+.betchagame-footer-cookie-text-title {
   max-width: 610px;
   font-family: var(--font-family);
   font-weight: 600;
@@ -224,7 +227,7 @@ footer {
   align-items: flex-start;
 }
 
-.footer-cookie-text-description {
+.betchagame-footer-cookie-text-description {
   width: 100%;
   max-width: 610px;
   font-family: var(--second-family);
@@ -234,7 +237,7 @@ footer {
   color: rgba(255, 255, 255, 0.8);
 }
 
-.footer_imgs {
+.betchagame-footer_imgs {
   width: 100%;
   max-width: 610px;
   display: flex;
@@ -243,14 +246,14 @@ footer {
 }
 
 @media (max-width: 991px) {
-  .footer-cookie-text-title,
-  .footer-cookie-text-description {
+  .betchagame-footer-cookie-text-title,
+  .betchagame-footer-cookie-text-description {
     text-align: center;
     align-self: center;
   }
 }
 
-.hero {
+.betchagame-hero {
   background-image: url("/betchagame-images/decorativeContent/betchagame-hero.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -264,7 +267,7 @@ footer {
   text-align: center;
 }
 
-.hero__content .default__button {
+.betchagame-hero__content .betchagame-default__button {
   border-radius: 20px;
   padding: 10px 60px;
   height: 58px;
@@ -278,14 +281,14 @@ footer {
   border: none;
 }
 
-.hero__content {
+.betchagame-hero__content {
   padding-top: 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.hero__content h1 {
+.betchagame-hero__content h1 {
   font-family: "Rubik", sans-serif;
   font-weight: 600;
   font-size: 50px;
@@ -296,7 +299,7 @@ footer {
 }
 
 @media (max-width: 991px) {
-  .hero__content h1 {
+  .betchagame-hero__content h1 {
     font-weight: 600;
     font-size: 32px;
     line-height: 120%;
@@ -308,31 +311,31 @@ footer {
 
 /* ===============================================================> */
 /* стили для конкретной страницы */
-.leadership {
+.betchagame-leadership {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.leadership__content {
+.betchagame-leadership__content {
   display: flex;
   flex-direction: column;
   padding: 80px 0;
   gap: 40px;
 }
 
-.leadership__header {
+.betchagame-leadership__header {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 36px;
   text-transform: uppercase;
   color: #fff;
 }
-.leadership__table ul li:not(:first-child) {
+.betchagame-leadership__table ul li:not(:first-child) {
   margin-top: 24px;
 }
 
-.leadership__table ul li {
+.betchagame-leadership__table ul li {
   display: flex;
   border: 1px solid #fff;
   border-radius: 22px;
@@ -343,17 +346,17 @@ footer {
 }
 
 @media (max-width: 337px) {
-  .leadership__table ul li {
+  .betchagame-leadership__table ul li {
     width: 328px;
   }
 }
 
-.leadership_line {
+.betchagame-leadership_line {
   display: flex;
   width: 100%;
 }
 
-.leadership_card {
+.betchagame-leadership_card {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -361,21 +364,21 @@ footer {
 }
 
 @media (max-width: 1220px) {
-  .leadership_card {
+  .betchagame-leadership_card {
     gap: 20px;
     flex-direction: column;
     align-items: center;
   }
 }
 
-.leadership_card_left {
+.betchagame-leadership_card_left {
   display: flex;
   align-items: center;
   gap: 10px;
   width: auto;
 }
 
-.leadership_card_left .leader_name {
+.betchagame-leadership_card_left .betchagame-leader_name {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 18px;
@@ -383,7 +386,7 @@ footer {
   color: #fff;
 }
 
-.leadership_card_right {
+.betchagame-leadership_card_right {
   display: flex;
   gap: 24px;
   flex-direction: row;
@@ -391,16 +394,16 @@ footer {
 }
 
 @media (max-width: 991px) {
-  .leadership_card_left {
+  .betchagame-leadership_card_left {
     align-self: start;
   }
-  .leadership_card_right {
+  .betchagame-leadership_card_right {
     flex-direction: column;
     align-items: center;
   }
 }
 
-.leadership_card_right .leader_progress {
+.betchagame-leadership_card_right .betchagame-leader_progress {
   border-radius: 20px;
   width: 749px;
   height: 20px;
@@ -408,26 +411,26 @@ footer {
 }
 
 @media (max-width: 1220px) {
-  .leadership__header {
+  .betchagame-leadership__header {
     text-align: center;
   }
-  .leadership__table {
+  .betchagame-leadership__table {
     padding: 0 20px;
   }
-  .leadership_card_right .leader_progress {
+  .betchagame-leadership_card_right .betchagame-leader_progress {
     width: 296px;
     height: 20px;
   }
 }
 
 @media (max-width: 991px) {
-  .leadership_card_right .leader_progress {
+  .betchagame-leadership_card_right .betchagame-leader_progress {
     width: 296px;
     height: 20px;
   }
 }
 
-.leadership_card_right .leader_points {
+.betchagame-leadership_card_right .betchagame-leader_points {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 18px;
@@ -437,6 +440,6 @@ footer {
 /* ===============================================================> */
 /* универсальные стили */
 
-.word-wrapper {
+.betchagame-word-wrapper {
   word-wrap: break-word;
 }

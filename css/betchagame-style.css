@@ -52,11 +52,11 @@ body {
   overflow-x: hidden;
 }
 
-.popup-wrapper {
+.betchagame-popup-wrapper {
   z-index: 1000;
 }
 
-.popup {
+.betchagame-popup {
   background: #1e1e2f;
   padding: 24px;
   display: flex;
@@ -67,7 +67,7 @@ body {
   overflow: hidden;
 }
 
-.popup-content {
+.betchagame-popup-content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -79,7 +79,7 @@ body {
   padding: 16px;
 }
 
-.popup-content h2 {
+.betchagame-popup-content h2 {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 20px;
@@ -88,7 +88,7 @@ body {
   color: #fff;
 }
 
-.popup-content p {
+.betchagame-popup-content p {
   font-family: var(--second-family);
   font-weight: 400;
   font-size: 14px;
@@ -96,7 +96,7 @@ body {
   color: #fff;
 }
 
-.popup-content .default__button {
+.betchagame-popup-content .betchagame-default__button {
   border-radius: 20px;
   padding: 10px 60px;
   max-width: 405px;
@@ -113,7 +113,7 @@ body {
   transition: all 0.3s ease;
 }
 
-.popup-content .default__button:hover {
+.betchagame-popup-content .betchagame-default__button:hover {
   background: linear-gradient(180deg, #3ef969 0%, #28a745 100%);
 }
 
@@ -126,17 +126,17 @@ footer {
   padding: 40px 0;
 }
 
-.container {
+.betchagame-container {
   max-width: 1240px;
   width: 100%;
 }
 
-.auth__buttons {
+.betchagame-auth__buttons {
   display: flex;
   gap: 8px;
 }
 
-.auth__buttons .default__button:not(:last-child) {
+.betchagame-auth__buttons .betchagame-default__button:not(:last-child) {
   border-radius: 20px;
   padding: 10px 40px;
   height: 46px;
@@ -149,7 +149,7 @@ footer {
   color: #070707;
 }
 
-.auth__buttons .default__button:last-child {
+.betchagame-auth__buttons .betchagame-default__button:last-child {
   border: 1px solid var(--button-color);
   border-radius: 20px;
   padding: 10px 40px;
@@ -173,19 +173,19 @@ header {
   padding: 11.12px 0 11.13px 0;
 }
 
-.header-content {
+.betchagame-header-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 @media (max-width: 1220px) {
-  .header-content {
+  .betchagame-header-content {
     padding: 0 24px;
   }
 }
 
-.nav__list {
+.betchagame-nav__list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
@@ -199,16 +199,16 @@ header {
 }
 
 @media (max-width: 991px) {
-  .nav__list {
+  .betchagame-nav__list {
     display: none;
   }
 
-  .auth__buttons {
+  .betchagame-auth__buttons {
     display: none;
   }
 }
 
-.hero {
+.betchagame-hero {
   background-image: url("/betchagame-images/decorativeContent/betchagame-hero.png");
   background-size: cover;
   background-position: center;
@@ -223,7 +223,7 @@ header {
   text-align: center;
 }
 
-.hero__content .default__button {
+.betchagame-hero__content .betchagame-default__button {
   border-radius: 20px;
   padding: 10px 60px;
   height: 58px;
@@ -237,14 +237,14 @@ header {
   border: none;
 }
 
-.hero__content {
+.betchagame-hero__content {
   padding-top: 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.hero__content h1 {
+.betchagame-hero__content h1 {
   font-family: "Rubik", sans-serif;
   font-weight: 600;
   font-size: 50px;
@@ -255,7 +255,7 @@ header {
 }
 
 @media (max-width: 991px) {
-  .hero__content h1 {
+  .betchagame-hero__content h1 {
     font-weight: 600;
     font-size: 32px;
     line-height: 120%;
@@ -265,7 +265,7 @@ header {
   }
 }
 
-.how-it-works {
+.betchagame-how-it-works {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -277,7 +277,7 @@ header {
   overflow: visible;
 }
 
-.works__content {
+.betchagame-works__content {
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -285,7 +285,7 @@ header {
   box-sizing: border-box;
 }
 
-.works__header {
+.betchagame-works__header {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 36px;
@@ -294,7 +294,7 @@ header {
   margin-bottom: 60px;
 }
 
-.works_cards.container {
+.betchagame-works_cards.betchagame-container {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
@@ -302,7 +302,7 @@ header {
   box-sizing: border-box;
 }
 
-.works_cards ul {
+.betchagame-works_cards ul {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -311,13 +311,13 @@ header {
   list-style: none;
 }
 
-.works_cards ul li {
+.betchagame-works_cards ul li {
   width: 295px;
   height: 198px;
   display: flex;
 }
 
-.work_card {
+.betchagame-work_card {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -325,13 +325,13 @@ header {
   box-sizing: border-box;
 }
 
-.work_card img {
+.betchagame-work_card img {
   max-width: 60px;
   height: auto;
   margin-bottom: 15px;
 }
 
-.work_card_title {
+.betchagame-work_card_title {
   font-family: var(--font-family);
   font-weight: 800;
   font-size: 20px;
@@ -341,7 +341,7 @@ header {
   margin: 12px 0 20px;
 }
 
-.work_card_description {
+.betchagame-work_card_description {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -351,59 +351,59 @@ header {
 }
 
 @media (max-width: 991px) {
-  .how-it-works {
+  .betchagame-how-it-works {
     min-height: auto;
     padding: 40px 0;
   }
 
-  .works__content {
+  .betchagame-works__content {
     padding: 40px 0;
     text-align: center;
     justify-content: center;
   }
 
-  .work_card {
+  .betchagame-work_card {
     align-items: center;
     text-align: center;
   }
 
-  .works__header {
+  .betchagame-works__header {
     font-size: 28px;
     margin-bottom: 40px;
   }
 
-  .works_cards ul {
+  .betchagame-works_cards ul {
     flex-direction: column;
     align-items: center;
   }
 
-  .works_cards ul li {
+  .betchagame-works_cards ul li {
     width: 100%;
     height: auto;
     min-height: 188px;
   }
 
-  .work_card_description {
+  .betchagame-work_card_description {
     max-width: 100%;
     text-align: center;
   }
 }
 
-.games {
+.betchagame-games {
   display: flex;
   flex-direction: column;
   align-items: center;
   background: #061617;
 }
 
-.games__content {
+.betchagame-games__content {
   display: flex;
   flex-direction: column;
   padding: 80px 0;
   gap: 40px;
 }
 
-.games__header h3 {
+.betchagame-games__header h3 {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 36px;
@@ -411,7 +411,7 @@ header {
   color: #fff;
 }
 
-.games_cards ul {
+.betchagame-games_cards ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -421,16 +421,16 @@ header {
 }
 
 @media (max-width: 991px) {
-  .games_cards ul {
+  .betchagame-games_cards ul {
     flex-direction: column;
     align-items: center;
   }
-  .games__header h3 {
+  .betchagame-games__header h3 {
     text-align: center;
   }
 }
 
-.game_card {
+.betchagame-game_card {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -443,18 +443,18 @@ header {
 }
 
 @media (max-width: 337px) {
-  .game_card {
+  .betchagame-game_card {
     width: 328px;
     height: 401px;
   }
 
-  .game_card img {
+  .betchagame-game_card img {
     width: 328px;
     height: 300px;
   }
 }
 
-.game_card img {
+.betchagame-game_card img {
   border: none;
   border-radius: 10px;
   width: 295px;
@@ -462,13 +462,13 @@ header {
 }
 
 @media (max-width: 337px) {
-  .game_card img {
+  .betchagame-game_card img {
     width: 328px;
     height: 300px;
   }
 }
 
-.game_card .game_card_title {
+.betchagame-game_card .betchagame-game_card_title {
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -476,7 +476,7 @@ header {
   color: #fff;
 }
 
-.game_card_button {
+.betchagame-game_card_button {
   border-radius: 0 0 10px 10px;
   padding: 10px 60px;
   width: 100%;
@@ -493,36 +493,36 @@ header {
   color: #070707;
   transition: all 0.6s ease;
 }
-.game_card_button:hover {
+.betchagame-game_card_button:hover {
   border: 1px solid #28a745;
   color: #fff;
   background: #061617;
 }
-.leadership {
+.betchagame-leadership {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.leadership__content {
+.betchagame-leadership__content {
   display: flex;
   flex-direction: column;
   padding: 80px 0;
   gap: 40px;
 }
 
-.leadership__header {
+.betchagame-leadership__header {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 36px;
   text-transform: uppercase;
   color: #fff;
 }
-.leadership__table ul li:not(:first-child) {
+.betchagame-leadership__table ul li:not(:first-child) {
   margin-top: 24px;
 }
 
-.leadership__table ul li {
+.betchagame-leadership__table ul li {
   display: flex;
   border: 1px solid #fff;
   border-radius: 22px;
@@ -533,17 +533,17 @@ header {
 }
 
 @media (max-width: 337px) {
-  .leadership__table ul li {
+  .betchagame-leadership__table ul li {
     width: 328px;
   }
 }
 
-.leadership_line {
+.betchagame-leadership_line {
   display: flex;
   width: 100%;
 }
 
-.leadership_card {
+.betchagame-leadership_card {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -551,21 +551,21 @@ header {
 }
 
 @media (max-width: 1220px) {
-  .leadership_card {
+  .betchagame-leadership_card {
     gap: 20px;
     flex-direction: column;
     align-items: center;
   }
 }
 
-.leadership_card_left {
+.betchagame-leadership_card_left {
   display: flex;
   align-items: center;
   gap: 10px;
   width: auto;
 }
 
-.leadership_card_left .leader_name {
+.betchagame-leadership_card_left .betchagame-leader_name {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 18px;
@@ -573,7 +573,7 @@ header {
   color: #fff;
 }
 
-.leadership_card_right {
+.betchagame-leadership_card_right {
   display: flex;
   gap: 24px;
   flex-direction: row;
@@ -581,16 +581,16 @@ header {
 }
 
 @media (max-width: 991px) {
-  .leadership_card_left {
+  .betchagame-leadership_card_left {
     align-self: start;
   }
-  .leadership_card_right {
+  .betchagame-leadership_card_right {
     flex-direction: column;
     align-items: center;
   }
 }
 
-.leadership_card_right .leader_progress {
+.betchagame-leadership_card_right .betchagame-leader_progress {
   border-radius: 20px;
   width: 749px;
   height: 20px;
@@ -598,26 +598,26 @@ header {
 }
 
 @media (max-width: 1220px) {
-  .leadership__header {
+  .betchagame-leadership__header {
     text-align: center;
   }
-  .leadership__table {
+  .betchagame-leadership__table {
     padding: 0 20px;
   }
-  .leadership_card_right .leader_progress {
+  .betchagame-leadership_card_right .betchagame-leader_progress {
     width: 296px;
     height: 20px;
   }
 }
 
 @media (max-width: 991px) {
-  .leadership_card_right .leader_progress {
+  .betchagame-leadership_card_right .betchagame-leader_progress {
     width: 296px;
     height: 20px;
   }
 }
 
-.leadership_card_right .leader_points {
+.betchagame-leadership_card_right .betchagame-leader_points {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 18px;
@@ -625,11 +625,11 @@ header {
   color: #e9e9e9;
 }
 
-.reviews {
+.betchagame-reviews {
   background: #061617;
 }
 
-.reviews_content {
+.betchagame-reviews_content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -637,12 +637,12 @@ header {
   gap: 41px;
 }
 @media (max-width: 1220px) {
-  .reviews_content {
+  .betchagame-reviews_content {
     padding: 40px 16px;
   }
 }
 
-.reviews_header {
+.betchagame-reviews_header {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 36px;
@@ -653,7 +653,7 @@ header {
   justify-content: space-between;
 }
 
-.toggle-reviews-btn {
+.betchagame-toggle-reviews-btn {
   width: 45px;
   height: 45px;
   border-radius: 100%;
@@ -662,18 +662,18 @@ header {
 }
 
 @media (max-width: 459px) {
-  .toggle-reviews-btn {
+  .betchagame-toggle-reviews-btn {
     display: none;
   }
 }
 
-.reviews_list {
+.betchagame-reviews_list {
   width: 100%;
   margin: 0 auto;
   overflow-x: auto;
 }
 
-.reviews_list ul {
+.betchagame-reviews_list ul {
   display: flex;
   flex-direction: row;
   gap: 20px;
@@ -683,13 +683,13 @@ header {
 }
 
 @media (max-width: 459px) {
-  .reviews_list ul {
+  .betchagame-reviews_list ul {
     flex-direction: column;
     align-items: center;
   }
 }
 
-.reviews_list ul .review_item {
+.betchagame-reviews_list ul .betchagame-review_item {
   width: 400px;
   box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.3);
   background: #fff;
@@ -701,18 +701,18 @@ header {
 }
 
 @media (max-width: 459px) {
-  .reviews_list ul .review_item {
+  .betchagame-reviews_list ul .betchagame-review_item {
     max-width: 328px;
   }
 }
 
 @media (min-width: 1440px) {
-  .reviews_list {
+  .betchagame-reviews_list {
     margin-left: 335px;
   }
 }
 
-.review_card_bttm {
+.betchagame-review_card_bttm {
   margin-top: 16px;
   display: flex;
   flex-direction: column;
@@ -720,7 +720,7 @@ header {
   gap: 24px;
 }
 
-.name_review {
+.betchagame-name_review {
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 16px;
@@ -739,20 +739,20 @@ header {
   overflow-wrap: anywhere;
 }
 
-.stars-review {
+.betchagame-stars-review {
   display: flex;
   flex-direction: row !important;
   gap: 4.75px;
 }
 
-.join_game {
+.betchagame-join_game {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 80px 0;
 }
 
-.join_game_content {
+.betchagame-join_game_content {
   display: flex;
   flex-wrap: wrap;
 
@@ -760,7 +760,7 @@ header {
   flex-direction: row;
 }
 
-.join_game_content img {
+.betchagame-join_game_content img {
   border-radius: 10px;
   width: 100%;
   height: auto;
@@ -768,7 +768,7 @@ header {
   max-height: 400px;
 }
 
-.join_banner_content {
+.betchagame-join_banner_content {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -779,15 +779,15 @@ header {
 }
 
 @media (max-width: 991px) {
-  .join_banner_content {
+  .betchagame-join_banner_content {
     padding: 0 20px;
   }
-  .join_banner_btn {
+  .betchagame-join_banner_btn {
     width: 100%;
   }
 }
 
-.join_banner_content h3 {
+.betchagame-join_banner_content h3 {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 36px;
@@ -796,7 +796,7 @@ header {
   color: #fff;
 }
 
-.join_banner_content .join_banner_text {
+.betchagame-join_banner_content .betchagame-join_banner_text {
   font-family: var(--second-family);
   font-weight: 400;
   font-size: 16px;
@@ -804,7 +804,7 @@ header {
   color: #a3ffea;
 }
 
-.join_banner_btn {
+.betchagame-join_banner_btn {
   border-radius: 20px;
   border: none;
   padding: 10px 60px;
@@ -820,31 +820,31 @@ header {
 }
 
 @media (max-width: 991px) {
-  .join_banner_btn {
+  .betchagame-join_banner_btn {
     width: 100%;
   }
 }
 
-.footer_content {
+.betchagame-footer_content {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
 
 @media (max-width: 991px) {
-  .footer_content {
+  .betchagame-footer_content {
     padding: 0 16px;
   }
 }
 
-.footer-lines:not(:last-child) {
+.betchagame-footer-lines:not(:last-child) {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 16px;
 }
 
-.footer-lines:last-child {
+.betchagame-footer-lines:last-child {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
@@ -852,21 +852,21 @@ header {
 }
 
 @media (max-width: 991px) {
-  .footer-lines {
+  .betchagame-footer-lines {
     flex-direction: column;
     align-items: center;
     justify-content: start;
   }
 }
 
-.footer-lines .footer-logo {
+.betchagame-footer-lines .betchagame-footer-logo {
   display: flex;
   align-items: center;
   gap: 20px;
   text-align: center;
 }
 
-.footer-text-logo {
+.betchagame-footer-text-logo {
   border-left: 1px solid rgba(255, 255, 255, 0.8);
   padding: 10px;
   width: 365px;
@@ -876,7 +876,10 @@ header {
   text-align: center;
 }
 
-.footer-lines .footer-logo .footer-text-logo p {
+.betchagame-footer-lines
+  .betchagame-footer-logo
+  .betchagame-footer-text-logo
+  p {
   font-family: var(--second-family);
   font-weight: 400;
   font-size: 14px;
@@ -884,19 +887,19 @@ header {
 }
 
 @media (max-width: 991px) {
-  .footer-lines .nav__list {
+  .betchagame-footer-lines .betchagame-nav__list {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
-.footer-paragraphs {
+.betchagame-footer-paragraphs {
   display: flex;
   flex-direction: column;
   gap: 14px;
 }
 
-.footer-cookie-text-title {
+.betchagame-footer-cookie-text-title {
   max-width: 610px;
   font-family: var(--font-family);
   font-weight: 600;
@@ -909,7 +912,7 @@ header {
   align-items: flex-start;
 }
 
-.footer-cookie-text-description {
+.betchagame-footer-cookie-text-description {
   max-width: 610px;
   font-family: var(--second-family);
   font-weight: 400;
@@ -919,8 +922,8 @@ header {
 }
 
 @media (max-width: 991px) {
-  .footer-cookie-text-title,
-  .footer-cookie-text-description {
+  .betchagame-footer-cookie-text-title,
+  .betchagame-footer-cookie-text-description {
     text-align: center;
     align-self: center;
   }
@@ -928,7 +931,7 @@ header {
 
 /* универсальные стили */
 
-.word-wrapper {
+.betchagame-word-wrapper {
   word-wrap: break-word;
 }
 /* ===============================================================> */
@@ -988,12 +991,12 @@ body {
   width: 100%;
 }
 
-.auth__buttons {
+.betchagame-auth__buttons {
   display: flex;
   gap: 8px;
 }
 
-.auth__buttons .default__button:not(:last-child) {
+.betchagame-auth__buttons .betchagame-default__button:not(:last-child) {
   border-radius: 20px;
   padding: 10px 40px;
   height: 46px;
@@ -1006,7 +1009,7 @@ body {
   color: #070707;
 }
 
-.auth__buttons .default__button:last-child {
+.betchagame-auth__buttons .betchagame-default__button:last-child {
   border: 1px solid var(--button-color);
   border-radius: 20px;
   padding: 10px 40px;
@@ -1030,19 +1033,19 @@ header {
   padding: 11.12px 0 11.13px 0;
 }
 
-.header-content {
+.betchagame-header-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 @media (max-width: 1220px) {
-  .header-content {
+  .betchagame-header-content {
     padding: 0 24px;
   }
 }
 
-.nav__list {
+.betchagame-nav__list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
@@ -1056,11 +1059,11 @@ header {
 }
 
 @media (max-width: 991px) {
-  .nav__list {
+  .betchagame-nav__list {
     display: none;
   }
 
-  .auth__buttons {
+  .betchagame-auth__buttons {
     display: none;
   }
 }
@@ -1074,26 +1077,26 @@ footer {
   padding: 40px 0;
 }
 
-.footer_content {
+.betchagame-footer_content {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
 
 @media (max-width: 991px) {
-  .footer_content {
+  .betchagame-footer_content {
     padding: 0 16px;
   }
 }
 
-.footer-lines {
+.betchagame-footer-lines {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 16px;
 }
 
-.footer-lines:last-child {
+.betchagame-footer-lines:last-child {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
@@ -1101,21 +1104,21 @@ footer {
 }
 
 @media (max-width: 991px) {
-  .footer-lines {
+  .betchagame-footer-lines {
     flex-direction: column;
     align-items: center;
     justify-content: start;
   }
 }
 
-.footer-lines .footer-logo {
+.betchagame-footer-lines .betchagame-footer-logo {
   display: flex;
   align-items: center;
   gap: 20px;
   text-align: center;
 }
 
-.footer-text-logo {
+.betchagame-footer-text-logo {
   border-left: 1px solid rgba(255, 255, 255, 0.8);
   padding: 10px;
   width: 365px;
@@ -1125,7 +1128,10 @@ footer {
   text-align: center;
 }
 
-.footer-lines .footer-logo .footer-text-logo p {
+.betchagame-footer-lines
+  .betchagame-footer-logo
+  .betchagame-footer-text-logo
+  p {
   font-family: var(--second-family);
   font-weight: 400;
   font-size: 14px;
@@ -1133,19 +1139,19 @@ footer {
 }
 
 @media (max-width: 991px) {
-  .footer-lines .nav__list {
+  .betchagame-footer-lines .betchagame-nav__list {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
-.footer-paragraphs {
+.betchagame-footer-paragraphs {
   display: flex;
   flex-direction: column;
   gap: 14px;
 }
 
-.footer-cookie-text-title {
+.betchagame-footer-cookie-text-title {
   max-width: 610px;
   font-family: var(--font-family);
   font-weight: 600;
@@ -1158,7 +1164,7 @@ footer {
   align-items: flex-start;
 }
 
-.footer-cookie-text-description {
+.betchagame-footer-cookie-text-description {
   width: 100%;
   max-width: 610px;
   font-family: var(--second-family);
@@ -1168,7 +1174,7 @@ footer {
   color: rgba(255, 255, 255, 0.8);
 }
 
-.footer_imgs {
+.betchagame-footer_imgs {
   width: 100%;
   max-width: 610px;
   display: flex;
@@ -1177,8 +1183,8 @@ footer {
 }
 
 @media (max-width: 991px) {
-  .footer-cookie-text-title,
-  .footer-cookie-text-description {
+  .betchagame-footer-cookie-text-title,
+  .betchagame-footer-cookie-text-description {
     text-align: center;
     align-self: center;
   }
