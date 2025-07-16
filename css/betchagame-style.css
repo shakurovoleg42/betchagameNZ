@@ -126,7 +126,7 @@ footer {
   padding: 40px 0;
 }
 
-.betchagame-container {
+.container {
   max-width: 1240px;
   width: 100%;
 }
@@ -294,7 +294,7 @@ header {
   margin-bottom: 60px;
 }
 
-.betchagame-works_cards.betchagame-container {
+.betchagame-works_cards .betchagame-container {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
@@ -341,7 +341,7 @@ header {
   margin: 12px 0 20px;
 }
 
-.betchagame-work_card_description {
+.work_card_description {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -383,7 +383,7 @@ header {
     min-height: 188px;
   }
 
-  .betchagame-work_card_description {
+  .work_card_description {
     max-width: 100%;
     text-align: center;
   }
