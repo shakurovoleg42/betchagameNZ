@@ -251,7 +251,7 @@ footer {
 }
 
 .hero {
-  background-image: url("/images/decorativeContent/hero.png");
+  background-image: url("/betchagame-images/decorativeContent/betchagame-hero.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -306,137 +306,118 @@ footer {
   }
 }
 
-/* ===============================================================> */
-/* стили для конкретной страницы */
-.leadership {
+/* универсальные стили */
+
+.word-wrapper {
+  word-wrap: break-word;
+}
+
+.games {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: #061617;
 }
 
-.leadership__content {
+.games__content {
   display: flex;
   flex-direction: column;
   padding: 80px 0;
   gap: 40px;
 }
 
-.leadership__header {
+.games__header h3 {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 36px;
   text-transform: uppercase;
   color: #fff;
 }
-.leadership__table ul li:not(:first-child) {
-  margin-top: 24px;
+
+.games_cards ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
 }
 
-.leadership__table ul li {
+@media (max-width: 991px) {
+  .games_cards ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .games__header h3 {
+    text-align: center;
+  }
+}
+
+.game_card {
   display: flex;
+  flex-direction: column;
+  text-align: center;
   border: 1px solid #fff;
-  border-radius: 22px;
-  padding: 10px 16px;
-  min-height: 70px;
-  background: linear-gradient(180deg, #1e1e2f 0%, #0a2528 100%);
-  margin: 0 auto;
+  border-radius: 10px;
+  width: 295px;
+  gap: 12px;
+  backdrop-filter: blur(30px);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 @media (max-width: 337px) {
-  .leadership__table ul li {
+  .game_card {
     width: 328px;
+    height: 401px;
+  }
+
+  .game_card img {
+    width: 328px;
+    height: 300px;
   }
 }
 
-.leadership_line {
-  display: flex;
-  width: 100%;
+.game_card img {
+  border: none;
+  border-radius: 10px;
+  width: 295px;
+  height: 300px;
 }
 
-.leadership_card {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-
-@media (max-width: 1220px) {
-  .leadership_card {
-    gap: 20px;
-    flex-direction: column;
-    align-items: center;
+@media (max-width: 337px) {
+  .game_card img {
+    width: 328px;
+    height: 300px;
   }
 }
 
-.leadership_card_left {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  width: auto;
-}
-
-.leadership_card_left .leader_name {
-  font-family: var(--font-family);
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 117%;
+.game_card .game_card_title {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
   color: #fff;
 }
 
-.leadership_card_right {
-  display: flex;
-  gap: 24px;
-  flex-direction: row;
-  text-align: right;
-}
-
-@media (max-width: 991px) {
-  .leadership_card_left {
-    align-self: start;
-  }
-  .leadership_card_right {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
-.leadership_card_right .leader_progress {
-  border-radius: 20px;
-  width: 749px;
-  height: 20px;
-  background: linear-gradient(90deg, #0509f8 0%, #a3ffea 100%);
-}
-
-@media (max-width: 1220px) {
-  .leadership__header {
-    text-align: center;
-  }
-  .leadership__table {
-    padding: 0 20px;
-  }
-  .leadership_card_right .leader_progress {
-    width: 296px;
-    height: 20px;
-  }
-}
-
-@media (max-width: 991px) {
-  .leadership_card_right .leader_progress {
-    width: 296px;
-    height: 20px;
-  }
-}
-
-.leadership_card_right .leader_points {
+.game_card_button {
+  border-radius: 0 0 10px 10px;
+  padding: 10px 60px;
+  width: 100%;
+  height: 58px;
+  background: linear-gradient(180deg, var(--button-color) 0%, #3ef969 100%);
+  border: none;
   font-family: var(--font-family);
-  font-weight: 600;
+  font-weight: 700;
   font-size: 18px;
-  line-height: 117%;
-  color: #e9e9e9;
+  line-height: 211%;
+  font-family: var(--font-family);
+  text-transform: uppercase;
+  text-align: center;
+  color: #070707;
+  transition: all 0.6s ease;
 }
-/* ===============================================================> */
-/* универсальные стили */
-
-.word-wrapper {
-  word-wrap: break-word;
+.game_card_button:hover {
+  border: 1px solid #28a745;
+  color: #fff;
+  background: #061617;
 }

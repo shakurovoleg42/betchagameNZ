@@ -209,7 +209,7 @@ header {
 }
 
 .hero {
-  background-image: url("/images/decorativeContent/hero.png");
+  background-image: url("/betchagame-images/decorativeContent/betchagame-hero.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -491,12 +491,13 @@ header {
   text-transform: uppercase;
   text-align: center;
   color: #070707;
+  transition: all 0.6s ease;
 }
 .game_card_button:hover {
   border: 1px solid #28a745;
-  background: inherit;
+  color: #fff;
+  background: #061617;
 }
-
 .leadership {
   display: flex;
   flex-direction: column;
