@@ -19,4 +19,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
   document.getElementById("popup-close").addEventListener("click", hidePopup);
   // конец модалки
+
+  document.querySelector(".burger-menu").addEventListener("click", function () {
+    this.classList.toggle("active");
+    document.querySelector(".betchagame-nav").classList.toggle("active");
+  });
 });

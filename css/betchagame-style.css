@@ -207,6 +207,73 @@ header {
     display: none;
   }
 }
+.burger-menu {
+  display: none;
+
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  height: 25px;
+}
+
+.burger-line {
+  background-color: #fff;
+  height: 3px;
+  width: 100%;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.burger-menu.active .burger-line:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.burger-menu.active .burger-line:nth-child(2) {
+  opacity: 0;
+}
+.burger-menu.active .burger-line:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -8px);
+}
+@media (max-width: 991px) {
+  .burger-menu {
+    display: flex;
+  }
+}
+
+/* Общий стиль nav */
+@media (max-width: 991px) {
+  .betchagame-nav {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 70%;
+    height: 100vh;
+    background-color: #020012;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: right 0.3s ease;
+    z-index: 999;
+    display: flex;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .betchagame-nav.active {
+    right: 0;
+  }
+
+  .betchagame-nav__list {
+    flex-direction: column;
+    display: flex !important;
+    gap: 32px;
+    padding: 0;
+  }
+
+  .betchagame-nav__list a {
+    color: #fff;
+    font-size: 18px;
+  }
+}
 
 .betchagame-hero {
   background-image: url("/betchagame-images/decorativeContent/betchagame-hero.png");

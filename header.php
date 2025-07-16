@@ -17,7 +17,7 @@ function isActive($page, $current) {
              style="width: 52px; height: 58px">
       </a>
     </div>
-    <nav>
+    <nav class="betchagame-nav">
       <ul class="betchagame-nav__list">
         <li><a href="/" <?= isActive('index.php', $current_page) ?>>Home</a></li>
         <li><a href="/play.php" <?= isActive('play.php', $current_page) ?>>Play</a></li>
@@ -30,6 +30,11 @@ function isActive($page, $current) {
     <div class="betchagame-auth__buttons">
       <button class="betchagame-default__button">Log In</button>
       <button class="betchagame-default__button">Sign Up</button>
+    </div>
+    <div class="burger-menu" aria-label="Toggle menu">
+      <span class="burger-line"></span>
+      <span class="burger-line"></span>
+      <span class="burger-line"></span>
     </div>
   </div>
 </header>
