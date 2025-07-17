@@ -106,43 +106,45 @@
                 <li>
                   <div class="betchagame-game_card">
                     <img
-                    title="Money Train 2"
-                      src="betchagame-images/infoContent/betchagame-moneyTrain2.jpg"
+                      title="Money Train 2"
+                      src="/betchagame-images/infoContent/betchagame-moneyTrain2.jpg"
                       alt="Money Train 2"
                     />
                     <p class="betchagame-game_card_title">Money Train 2</p>
-                    <button class="betchagame-game_card_button">play now</button>
+                    <a href="/play/Money-Train-2"><button class="betchagame-game_card_button">play now</button></a>
                   </div>
                 </li>
                 <li>
                   <div class="betchagame-game_card">
                     <img
                       title="Champions of Mithrune"
-                      src="betchagame-images/infoContent/betchagame-champions.jpg"
-                      alt="champions"
+                      src="/betchagame-images/infoContent/betchagame-champions.jpg"
+                      alt="Champions of Mithrune"
                     />
                     <p class="betchagame-game_card_title">Champions of Mithrune</p>
-                    <button class="betchagame-game_card_button">play now</button>
+                    <a href="/play/Champions-of-Mithrune"><button class="betchagame-game_card_button">play now</button></a>
                   </div>
                 </li>
                 <li>
                   <div class="betchagame-game_card">
                     <img
-                      title="5 Wild Buffalo"
-                      src="betchagame-images/infoContent/betchagame-wildBuffalo.jpg"
+                    title="5 Wild Buffalo"
+                      src="/betchagame-images/infoContent/betchagame-wildBuffalo.jpg"
                       alt="5 Wild Buffalo"
                     />
                     <p class="betchagame-game_card_title">5 Wild Buffalo</p>
-                    <button class="betchagame-game_card_button">play now</button>
+                    <a href="/play/5-Wild-Buffalo"><button class="betchagame-game_card_button">play now</button></a>
                   </div>
                 </li>
                 <li>
                   <div class="betchagame-game_card">
-                    <img 
+                    <img
                     title="Slashimi"
-                     src="betchagame-images/infoContent/betchagame-slashimi.jpg" alt="Slashimi" />
+                      src="/betchagame-images/infoContent/betchagame-slashimi.jpg"
+                      alt="Slashimi"
+                    />
                     <p class="betchagame-game_card_title">Slashimi</p>
-                    <button class="betchagame-game_card_button">play now</button>
+                    <a href="/play/Slashimi"><button class="betchagame-game_card_button">play now</button></a>
                   </div>
                 </li>
               </ul>

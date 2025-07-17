@@ -3,13 +3,11 @@
 $uri = trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/');
 $segments = explode('/', $uri);
 
-// Получаем имя текущей папки или файла
 $current_page = end($segments);
 if ($current_page === '' || $current_page === 'index.php' || $current_page === 'index.html') {
     $current_page = $segments[count($segments) - 2] ?? 'index';
 }
 
-// Функция для проверки активной страницы
 function isActive($page, $current) {
     return $page === $current ? 'style="color: #28a745"' : '';
 }
@@ -56,9 +54,9 @@ function isActive($page, $current) {
   <div class="popup-content">
     <button class="popup-close" id="closeSignupPopup" style="color: #ffffff; font-weight: 700">&times;</button>
     <div class="register-tabs">
-      <span>Log in</span>
-      <span>Register</span>
-    </div>
+  <span class="register-tab" data-tab="login">Log in</span>
+  <span class="register-tab" data-tab="register">Register</span>
+</div>
     
     <form>
       <div>
@@ -85,22 +83,37 @@ document.querySelector(".burger-menu").addEventListener("click", function () {
   });
 
     document.querySelectorAll('.betchagame-default__button').forEach(btn => {
-    if (btn.textContent.trim() === 'Sign Up') {
-      btn.addEventListener('click', () => {
-        document.getElementById('signupPopup').classList.add('show');
-      });
-    }
-  });
+  const text = btn.textContent.trim();
 
-  // Закрытие попапа
+  if (text === 'Sign Up' || text === 'Log In') {
+    btn.addEventListener('click', () => {
+      document.getElementById('signupPopup').classList.add('show');
+
+      const targetTab = text === 'Sign Up' ? 'register' : 'login';
+
+      document.querySelectorAll('.register-tab').forEach(tab => {
+        tab.classList.toggle('active-tab', tab.dataset.tab === targetTab);
+      });
+    });
+  }
+});
+
   document.getElementById('closeSignupPopup').addEventListener('click', () => {
     document.getElementById('signupPopup').classList.remove('show');
   });
 
-  // Закрытие при клике вне окна
   document.getElementById('signupPopup').addEventListener('click', (e) => {
     if (e.target === e.currentTarget) {
       e.currentTarget.classList.remove('show');
     }
+  });
+    const tabs = document.querySelectorAll('.register-tab');
+  
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      tabs.forEach(t => t.classList.remove('active-tab'));
+      tab.classList.add('active-tab');
+      const tabType = tab.dataset.tab;
+    });
   });
 </script>

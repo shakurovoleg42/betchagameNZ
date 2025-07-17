@@ -708,9 +708,15 @@ h2 {
   font-size: 16px;
   text-transform: capitalize;
   color: #fff;
-  border-bottom: 2px solid #28a745;
   padding: 10px 0px;
   width: 157px;
+  cursor: pointer;
+  user-select: none;
+  transition: border-bottom 0.3s ease;
+}
+
+.register-tab.active-tab {
+  border-bottom: 2px solid #28a745;
 }
 
 .popup-content form {
@@ -754,6 +760,7 @@ h2 {
   text-transform: uppercase;
   text-align: center;
   color: #070707;
+  border: none;
 }
 
 .popup-close {
