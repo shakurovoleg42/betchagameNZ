@@ -11,7 +11,7 @@ if (!function_exists('isActive')) {
     <!-- Первая линия -->
     <div class="betchagame-footer-lines">
       <div class="betchagame-footer-logo">
-        <img src="betchagame-images/betchagame-header-logo.svg" 
+        <img src="/betchagame-images/betchagame-header-logo.svg" 
              alt="Logo" 
              style="width: 52px; height: 58px">
         <div class="betchagame-footer-text-logo">
@@ -20,13 +20,14 @@ if (!function_exists('isActive')) {
       </div>
       <div style="display: flex; align-items: center">
         <ul class="betchagame-nav__list">
-          <li><a href="/" <?= isActive('index.php', $current_page) ?>>Home</a></li>
-          <li><a href="/play.php" <?= isActive('play.php', $current_page) ?>>Play</a></li>
-          <li><a href="/leaderboard.php" <?= isActive('leaderboard.php', $current_page) ?>>Leaderboard</a></li>
-          <li><a href="/challenges.php" <?= isActive('challenges.php', $current_page) ?>>Challenges</a></li>
-          <li><a href="/about.php" <?= isActive('about.php', $current_page) ?>>About</a></li>
-          <li><a href="/faq.php" <?= isActive('faq.php', $current_page) ?>>FAQ</a></li>
-        </ul>
+  <li><a href="/" <?= isActive('index', $current_page) ?>>Home</a></li>
+  <li><a href="/play/" <?= isActive('play', $current_page) ?>>Play</a></li>
+  <li><a href="/leaderboard.php" <?= isActive('leaderboard.php', $current_page) ?>>Leaderboard</a></li>
+  <li><a href="/challenges.php" <?= isActive('challenges.php', $current_page) ?>>Challenges</a></li>
+  <li><a href="/about.php" <?= isActive('about.php', $current_page) ?>>About</a></li>
+  <li><a href="/faq.php" <?= isActive('faq.php', $current_page) ?>>FAQ</a></li>
+</ul>
+
       </div>
     </div>
 
@@ -115,9 +116,9 @@ if (!function_exists('isActive')) {
       <div class="betchagame-footer-paragraphs">
         <div style="display: flex; align-items: center">
           <ul class="betchagame-nav__list">
-            <li><a href="/terms.php" <?= isActive('terms-of-use.php', $current_page) ?>>Terms of Use</a></li>
-            <li><a href="/privacy.php" <?= isActive('privacy-policy.php', $current_page) ?>>Privacy Policy</a></li>
-            <li><a href="/disclaimer.php" <?= isActive('legal-disclaimer.php', $current_page) ?>>Disclaimer</a></li>
+            <li><a href="/terms-of-use.php" <?= isActive('terms-of-use.php', $current_page) ?>>Terms of Use</a></li>
+            <li><a href="/privacy-policy.php" <?= isActive('privacy-policy.php', $current_page) ?>>Privacy Policy</a></li>
+            <li><a href="/legal-disclaimer.php" <?= isActive('legal-disclaimer.php', $current_page) ?>>Disclaimer</a></li>
           </ul>
         </div>
       </div>

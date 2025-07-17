@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/betchagame-css/betchagame-play.css" />
-    <link rel="canonical" href="https://betchagame.co.nz/play.html" />
+    <link rel="canonical" href="https://betchagame.co.nz/play.php" />
     <link
       rel="preload"
       href="/betchagame-fonts/rubik-webfont/betchagame-Rubik-Bold.woff"
@@ -17,7 +17,7 @@
   </head>
   <body>
     <div class="betchagame-page">
-      <?php include 'header.php'; ?>
+      <?php include(dirname(__DIR__) . '/header.php'); ?>
       <main>
         <section class="betchagame-hero">
           <div class="betchagame-hero__content container">
@@ -35,44 +35,44 @@
                   <div class="betchagame-game_card">
                     <img
                       title="Money Train 2"
-                      src="betchagame-images/infoContent/betchagame-moneyTrain2.jpg"
+                      src="/betchagame-images/infoContent/betchagame-moneyTrain2.jpg"
                       alt="Money Train 2"
                     />
                     <p class="betchagame-game_card_title">Money Train 2</p>
-                    <button class="betchagame-game_card_button">play now</button>
+                    <a href="/play/Money-Train-2"><button class="betchagame-game_card_button">play now</button></a>
                   </div>
                 </li>
                 <li>
                   <div class="betchagame-game_card">
                     <img
                       title="Champions of Mithrune"
-                      src="betchagame-images/infoContent/betchagame-champions.jpg"
+                      src="/betchagame-images/infoContent/betchagame-champions.jpg"
                       alt="Champions of Mithrune"
                     />
                     <p class="betchagame-game_card_title">Champions of Mithrune</p>
-                    <button class="betchagame-game_card_button">play now</button>
+                    <a href="/play/Champions-of-Mithrune"><button class="betchagame-game_card_button">play now</button></a>
                   </div>
                 </li>
                 <li>
                   <div class="betchagame-game_card">
                     <img
                     title="5 Wild Buffalo"
-                      src="betchagame-images/infoContent/betchagame-wildBuffalo.jpg"
+                      src="/betchagame-images/infoContent/betchagame-wildBuffalo.jpg"
                       alt="5 Wild Buffalo"
                     />
                     <p class="betchagame-game_card_title">5 Wild Buffalo</p>
-                    <button class="betchagame-game_card_button">play now</button>
+                    <a href="/play/5-Wild-Buffalo"><button class="betchagame-game_card_button">play now</button></a>
                   </div>
                 </li>
                 <li>
                   <div class="betchagame-game_card">
                     <img
                     title="Slashimi"
-                      src="betchagame-images/infoContent/betchagame-slashimi.jpg"
+                      src="/betchagame-images/infoContent/betchagame-slashimi.jpg"
                       alt="Slashimi"
                     />
                     <p class="betchagame-game_card_title">Slashimi</p>
-                    <button class="betchagame-game_card_button">play now</button>
+                    <a href="/play/Slashimi"><button class="betchagame-game_card_button">play now</button></a>
                   </div>
                 </li>
               </ul>
@@ -80,7 +80,7 @@
           </div>
         </section>
       </main>
-       <?php include 'footer.php'; ?>
+       <?php include(dirname(__DIR__) . '/footer.php'); ?>
     </div>
   </body>
 </html>

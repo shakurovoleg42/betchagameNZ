@@ -1,0 +1,6 @@
+@font-face {
+  font-family: "Revalia Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Revalia Regular"), url("Revalia-Regular.woff") format("woff");
+}

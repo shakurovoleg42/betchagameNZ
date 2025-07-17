@@ -169,7 +169,8 @@ header {
   }
 
   .betchagame-auth__buttons {
-    display: none;
+    flex-direction: column;
+    margin-top: 150px;
   }
 }
 .burger-menu {
@@ -237,16 +238,6 @@ header {
   .betchagame-nav__list a {
     color: #fff;
     font-size: 18px;
-  }
-}
-
-@media (max-width: 991px) {
-  .betchagame-nav__list {
-    display: none;
-  }
-
-  .betchagame-auth__buttons {
-    display: none;
   }
 }
 

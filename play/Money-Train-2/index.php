@@ -24,7 +24,7 @@
     <meta name="description" content="Discover BetchaGame, New Zealand’s social gaming platform for fun challenges, leaderboards, and zero-risk competition. No real-money bets — just points, pride, and play." /></head>
   <body>
     <div class="betchagame-page">
-      <?php include 'header.php'; ?>
+      <?php include(dirname(__DIR__, 2) . '/header.php'); ?>
       <main>
         <section class="betchagame-hero">
           <div class="betchagame-hero__content container">
@@ -37,7 +37,7 @@
             </div>
         </section>
       </main>
-       <?php include 'footer.php'; ?>
+       <?php include(dirname(__DIR__, 2) . '/footer.php'); ?>
     </div>
   </body>
 </html>
