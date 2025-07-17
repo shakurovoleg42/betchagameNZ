@@ -30,7 +30,6 @@ ul {
   width: auto;
   display: block;
   box-sizing: border-box;
-  overflow: visible;
 }
 button {
   cursor: pointer;
@@ -59,7 +58,8 @@ body {
   gap: 8px;
 }
 
-.betchagame-auth__buttons .betchagame-default__button:not(:last-child) {
+.betchagame-auth__buttons .betchagame-default__button:last-child,
+.betchagame-auth__buttons-desktop .betchagame-default__button:not(:last-child) {
   border-radius: 20px;
   padding: 10px 40px;
   height: 46px;
@@ -72,7 +72,8 @@ body {
   color: #070707;
 }
 
-.betchagame-auth__buttons .betchagame-default__button:last-child {
+.betchagame-auth__buttons .betchagame-default__button:last-child,
+.betchagame-auth__buttons-desktop .betchagame-default__button:last-child {
   border: 1px solid var(--button-color);
   border-radius: 20px;
   padding: 10px 40px;
@@ -96,9 +97,60 @@ header {
   padding: 11.12px 0 11.13px 0;
 }
 
+.betchagame-header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 1220px) {
+  .betchagame-header-content {
+    padding: 0 24px;
+  }
+}
+
+.betchagame-nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 137%;
+  text-align: center;
+  color: #fff;
+  list-style: disc;
+  font-family: "Rubik", sans-serif;
+}
+
+@media (max-width: 991px) {
+  .betchagame-nav__list {
+    display: none;
+  }
+
+  .betchagame-auth__buttons {
+    flex-direction: column;
+    margin-top: 150px;
+  }
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1e1e2f;
+  padding: 40px 0;
+}
+
+.container {
+  max-width: 1240px;
+  width: 100%;
+}
+
 .betchagame-auth__buttons {
   display: flex;
-  gap: 8px;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .betchagame-auth__buttons .betchagame-default__button:not(:last-child) {
@@ -168,9 +220,8 @@ header {
     display: none;
   }
 
-  .betchagame-auth__buttons {
-    flex-direction: column;
-    margin-top: 150px;
+  .betchagame-auth__buttons-desktop {
+    display: hidden;
   }
 }
 .burger-menu {
@@ -238,6 +289,27 @@ header {
   .betchagame-nav__list a {
     color: #fff;
     font-size: 18px;
+  }
+}
+
+.betchagame-nav .betchagame-auth__buttons {
+  display: none;
+}
+
+.betchagame-auth__buttons-desktop {
+  display: flex;
+  gap: 16px;
+}
+
+@media (max-width: 991px) {
+  .betchagame-auth__buttons-desktop {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .betchagame-nav .betchagame-auth__buttons {
+    display: flex;
   }
 }
 
@@ -523,9 +595,8 @@ h2 {
   margin-left: 20px;
 }
 
-.betchagame-join_banner_content .betchagame-join_banner_list {
+.betchagame-join_banner_content .betchagame-join_banner_list li {
   list-style-type: disc;
-  list-style: disc;
 }
 
 @media (max-width: 1240px) {
