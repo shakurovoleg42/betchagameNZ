@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/betchagame-faq.css" />
+    <link rel="stylesheet" href="/betchagame-css/betchagame-faq.css" />
     <link rel="canonical" href="https://betchagame.co.nz/faq.html" />
     <link
       rel="preload"

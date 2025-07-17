@@ -115,9 +115,9 @@ if (!function_exists('isActive')) {
       <div class="betchagame-footer-paragraphs">
         <div style="display: flex; align-items: center">
           <ul class="betchagame-nav__list">
-            <li><a href="/terms.php" <?= isActive('terms.php', $current_page) ?>>Terms of Use</a></li>
-            <li><a href="/privacy.php" <?= isActive('privacy.php', $current_page) ?>>Privacy Policy</a></li>
-            <li><a href="/disclaimer.php" <?= isActive('disclaimer.php', $current_page) ?>>Disclaimer</a></li>
+            <li><a href="/terms.php" <?= isActive('terms-of-use.php', $current_page) ?>>Terms of Use</a></li>
+            <li><a href="/privacy.php" <?= isActive('privacy-policy.php', $current_page) ?>>Privacy Policy</a></li>
+            <li><a href="/disclaimer.php" <?= isActive('legal-disclaimer.php', $current_page) ?>>Disclaimer</a></li>
           </ul>
         </div>
       </div>
