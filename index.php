@@ -166,7 +166,7 @@
                         <p class="betchagame-leader_name">Samantha Blaze</p>
                       </div>
                       <div class="betchagame-leadership_card_right">
-                        <b class="betchagame-leader_progress"></b>
+                        <b class="betchagame-leader_progress" style="width: 100%"></b>
                         <p class="betchagame-leader_points">14,920</p>
                       </div>
                     </div>
@@ -180,8 +180,8 @@
                         <p class="betchagame-leader_name">Jaxon Wilde</p>
                       </div>
                       <div class="betchagame-leadership_card_right">
-                        <b class="betchagame-leader_progress"></b>
-                        <p class="betchagame-leader_points">14,920</p>
+                        <b class="betchagame-leader_progress" style="width: 86%"></b>
+                        <p class="betchagame-leader_points">13,540</p>
                       </div>
                     </div>
                   </div>
@@ -194,8 +194,8 @@
                         <p class="betchagame-leader_name">Ava Storm</p>
                       </div>
                       <div class="betchagame-leadership_card_right">
-                        <b class="betchagame-leader_progress"></b>
-                        <p class="betchagame-leader_points">14,920</p>
+                        <b class="betchagame-leader_progress" style="width: 76%"></b>
+                        <p class="betchagame-leader_points">12,870</p>
                       </div>
                     </div>
                   </div>
@@ -208,8 +208,8 @@
                         <p class="betchagame-leader_name">Luca Meier</p>
                       </div>
                       <div class="betchagame-leadership_card_right">
-                        <b class="betchagame-leader_progress"></b>
-                        <p class="betchagame-leader_points">14,920</p>
+                        <b class="betchagame-leader_progress" style="width: 66%"></b>
+                        <p class="betchagame-leader_points">12,850</p>
                       </div>
                     </div>
                   </div>
@@ -222,8 +222,8 @@
                         <p class="betchagame-leader_name">Tyra Knox</p>
                       </div>
                       <div class="betchagame-leadership_card_right">
-                        <b class="betchagame-leader_progress"></b>
-                        <p class="betchagame-leader_points">14,920</p>
+                        <b class="betchagame-leader_progress" style="width: 64%"></b>
+                        <p class="betchagame-leader_points">11,960</p>
                       </div>
                     </div>
                   </div>

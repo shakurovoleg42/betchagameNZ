@@ -327,6 +327,7 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-attachment: fixed;
 }
 
 .betchagame-hero__content .betchagame-default__button {
@@ -349,6 +350,18 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 1s ease-out forwards;
+  animation-delay: 0.2s; /* чтобы не срабатывало мгновенно */
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 .betchagame-hero__content h1 {
   font-family: "Rubik", sans-serif;
@@ -651,9 +664,10 @@ header {
 
 .betchagame-leadership_card {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   width: 100%;
+  gap: 24px;
 }
 
 @media (max-width: 1220px) {
@@ -668,7 +682,7 @@ header {
   display: flex;
   align-items: center;
   gap: 10px;
-  width: auto;
+  width: 351px;
 }
 
 .betchagame-leadership_card_left .betchagame-leader_name {
@@ -680,10 +694,11 @@ header {
 }
 
 .betchagame-leadership_card_right {
+  width: 100%;
+  justify-content: space-between;
   display: flex;
   gap: 24px;
   flex-direction: row;
-  text-align: right;
 }
 
 @media (max-width: 991px) {
@@ -696,11 +711,19 @@ header {
   }
 }
 
-.betchagame-leadership_card_right .betchagame-leader_progress {
-  border-radius: 20px;
-  width: 749px;
+.betchagame-leader_progress {
   height: 20px;
+  border-radius: 20px;
   background: linear-gradient(90deg, #0509f8 0%, #a3ffea 100%);
+  transform: scaleX(0);
+  transform-origin: left center;
+  animation: growBar 2s ease-out forwards;
+}
+
+@keyframes growBar {
+  to {
+    transform: scaleX(1);
+  }
 }
 
 @media (max-width: 1220px) {
