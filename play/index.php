@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/betchagame-css/betchagame-play.css" />
-    <link rel="canonical" href="https://betchagame.co.nz/play.php" />
+    <link rel="canonical" href="https://betchagame.co.nz/play" />
     <link
       rel="preload"
       href="/betchagame-fonts/rubik-webfont/betchagame-Rubik-Bold.woff"
@@ -34,45 +34,45 @@
                 <li>
                   <div class="betchagame-game_card">
                     <img
-                      title="Money Train 2"
-                      src="/betchagame-images/infoContent/betchagame-moneyTrain2.jpg"
-                      alt="Money Train 2"
+                      title="Pirate slot"
+                      src="/betchagame-images/infoContent/betchagame-Pirate-slot.png"
+                      alt="Pirate slot"
                     />
-                    <p class="betchagame-game_card_title">Money Train 2</p>
-                    <a href="/play/Money-Train-2"><button class="betchagame-game_card_button">play now</button></a>
+                    <p class="betchagame-game_card_title">pirate slot</p>
+                    <a href="/play/pirate-slot/index"><button class="betchagame-game_card_button">play now</button></a>
                   </div>
                 </li>
                 <li>
                   <div class="betchagame-game_card">
                     <img
-                      title="Champions of Mithrune"
-                      src="/betchagame-images/infoContent/betchagame-champions.jpg"
-                      alt="Champions of Mithrune"
+                      title="Shadow Forest"
+                      src="/betchagame-images/infoContent/betchagame-shadow_forest.png"
+                      alt="Shadow Forest"
                     />
-                    <p class="betchagame-game_card_title">Champions of Mithrune</p>
-                    <a href="/play/Champions-of-Mithrune"><button class="betchagame-game_card_button">play now</button></a>
+                    <p class="betchagame-game_card_title">Shadow Forest</p>
+                    <a href="/play/shadow-forest/index"><button class="betchagame-game_card_button">play now</button></a>
                   </div>
                 </li>
                 <li>
                   <div class="betchagame-game_card">
                     <img
-                    title="5 Wild Buffalo"
-                      src="/betchagame-images/infoContent/betchagame-wildBuffalo.jpg"
-                      alt="5 Wild Buffalo"
+                    title="Slot Pan"
+                      src="/betchagame-images/infoContent/betchagame-slot_pan.png"
+                      alt="Slot Pan"
                     />
-                    <p class="betchagame-game_card_title">5 Wild Buffalo</p>
-                    <a href="/play/5-Wild-Buffalo"><button class="betchagame-game_card_button">play now</button></a>
+                    <p class="betchagame-game_card_title">Slot Pan</p>
+                    <a href="/play/slot-pan/index"><button class="betchagame-game_card_button">play now</button></a>
                   </div>
                 </li>
                 <li>
                   <div class="betchagame-game_card">
                     <img
-                    title="Slashimi"
-                      src="/betchagame-images/infoContent/betchagame-slashimi.jpg"
-                      alt="Slashimi"
+                    title="Night City"
+                      src="/betchagame-images/infoContent/betchagame-night_city.png"
+                      alt="Night City"
                     />
-                    <p class="betchagame-game_card_title">Slashimi</p>
-                    <a href="/play/Slashimi"><button class="betchagame-game_card_button">play now</button></a>
+                    <p class="betchagame-game_card_title">Night City</p>
+                    <a href="/play/night-city/index"><button class="betchagame-game_card_button">play now</button></a>
                   </div>
                 </li>
               </ul>

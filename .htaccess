@@ -1,0 +1,29 @@
+# Включение модуля перезаписи
+RewriteEngine On
+
+# Удаление множественных слэшей и редирект на правильный URL
+RewriteCond %{REQUEST_URI} ^(.*)//(.*)$
+RewriteRule . %1/%2 [R=301,L]
+
+# Удаление завершающего слэша и редирект
+RewriteCond %{REQUEST_URI} !-f
+RewriteCond %{REQUEST_URI} !-d
+RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+# Перенаправление с верхнего регистра на нижний
+RewriteCond %{REQUEST_URI} [A-Z]
+RewriteRule ^(.*)$ lower_case_redirect.php [L]
+
+# Удаление .php из URL и перенаправление на соответствующий файл
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [L]
+
+# Редирект с index.php или index.html на корень
+RewriteCond %{THE_REQUEST} \s/index\.(php|html) [NC]
+RewriteRule ^index\.(php|html)$ / [R=301,L]
+
+# Редирект всех несуществующих URL на index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]

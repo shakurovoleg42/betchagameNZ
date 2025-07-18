@@ -19,4 +19,27 @@ document.addEventListener("DOMContentLoaded", function () {
 
   document.getElementById("popup-close").addEventListener("click", hidePopup);
   // конец модалки
+
+  const slider = document.querySelector(".betchagame-reviews_list");
+
+  if (slider) {
+    const sliderSwiper = new Swiper(slider, {
+      loop: true,
+      observer: true,
+      observeParents: true,
+      watchOverflow: true,
+      slidesPerView: "auto",
+      spaceBetween: 32,
+      direction: "horizontal",
+      simulateTouch: true,
+      touchRatio: 1,
+      a11y: {
+        enabled: false,
+      },
+      navigation: {
+        nextEl: ".slider-next",
+        prevEl: ".slider-prev",
+      },
+    });
+  }
 });

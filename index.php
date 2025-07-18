@@ -12,11 +12,16 @@
       type="font/woff"
       crossorigin
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script defer src="swiper/swiper.js"></script>
+
     <script src="/betchagame-js/betchagame-index.js" defer></script>
     <title>Challenge Friends & Play Free – Social Casino & Prediction Games NZ</title>
     <meta name="description" content="Join BetchaGame, New Zealand’s top social casino platform. Sign up, make predictions, earn points, and climb the leaderboard — all for fun, no real-money betting." />
   
   </head>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
   <body>
     <div class="betchagame-popup-wrapper">
       <div class="betchagame-popup-overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-color: rgba(0, 0, 0, 0.5); z-index: 9999;"></div>
@@ -106,45 +111,45 @@
                 <li>
                   <div class="betchagame-game_card">
                     <img
-                      title="Money Train 2"
-                      src="/betchagame-images/infoContent/betchagame-moneyTrain2.jpg"
-                      alt="Money Train 2"
+                      title="Pirate slot"
+                      src="/betchagame-images/infoContent/betchagame-Pirate-slot.png"
+                      alt="Pirate slot"
                     />
-                    <p class="betchagame-game_card_title">Money Train 2</p>
-                    <a href="/play/Money-Train-2"><button class="betchagame-game_card_button">play now</button></a>
+                    <p class="betchagame-game_card_title">pirate slot</p>
+                    <a href="/play/pirate-slot/index"><button class="betchagame-game_card_button">play now</button></a>
                   </div>
                 </li>
                 <li>
                   <div class="betchagame-game_card">
                     <img
-                      title="Champions of Mithrune"
-                      src="/betchagame-images/infoContent/betchagame-champions.jpg"
-                      alt="Champions of Mithrune"
+                      title="Shadow Forest"
+                      src="/betchagame-images/infoContent/betchagame-shadow_forest.png"
+                      alt="Shadow Forest"
                     />
-                    <p class="betchagame-game_card_title">Champions of Mithrune</p>
-                    <a href="/play/Champions-of-Mithrune"><button class="betchagame-game_card_button">play now</button></a>
+                    <p class="betchagame-game_card_title">Shadow Forest</p>
+                    <a href="/play/shadow-forest/index"><button class="betchagame-game_card_button">play now</button></a>
                   </div>
                 </li>
                 <li>
                   <div class="betchagame-game_card">
                     <img
-                    title="5 Wild Buffalo"
-                      src="/betchagame-images/infoContent/betchagame-wildBuffalo.jpg"
-                      alt="5 Wild Buffalo"
+                    title="Slot Pan"
+                      src="/betchagame-images/infoContent/betchagame-slot_pan.png"
+                      alt="Slot Pan"
                     />
-                    <p class="betchagame-game_card_title">5 Wild Buffalo</p>
-                    <a href="/play/5-Wild-Buffalo"><button class="betchagame-game_card_button">play now</button></a>
+                    <p class="betchagame-game_card_title">Slot Pan</p>
+                    <a href="/play/slot-pan/index"><button class="betchagame-game_card_button">play now</button></a>
                   </div>
                 </li>
                 <li>
                   <div class="betchagame-game_card">
                     <img
-                    title="Slashimi"
-                      src="/betchagame-images/infoContent/betchagame-slashimi.jpg"
-                      alt="Slashimi"
+                    title="Night City"
+                      src="/betchagame-images/infoContent/betchagame-night_city.png"
+                      alt="Night City"
                     />
-                    <p class="betchagame-game_card_title">Slashimi</p>
-                    <a href="/play/Slashimi"><button class="betchagame-game_card_button">play now</button></a>
+                    <p class="betchagame-game_card_title">Night City</p>
+                    <a href="/play/night-city/index"><button class="betchagame-game_card_button">play now</button></a>
                   </div>
                 </li>
               </ul>
@@ -232,97 +237,96 @@
             </div>
           </div>
         </section>
-        <section class="betchagame-reviews">
+        <section class="betchagame-reviews ">
           <div class="betchagame-reviews_content">
-            <div class="betchagame-reviews_header review_togglers container">
+            <div class="betchagame-reviews_header container">
               <h3>Reviews</h3>
               <div class="betchagame-review_togglers">
-                <button class="betchagame-toggle-reviews-btn">
-                  <img src="betchagame-icons/betchagame-arrow-left.svg" alt="arrow-left" />
+                <button class="slider-prev betchagame-toggle-reviews-btn">
+                  <img src="/betchagame-icons/betchagame-arrow-left.svg" alt="arrow-left"/>
                 </button>
-                <button class="betchagame-toggle-reviews-btn">
-                  <img src="betchagame-icons/betchagame-arrow-right.svg" alt="arrow-right" />
+                <button class="slider-next betchagame-toggle-reviews-btn">
+                  <img src="/betchagame-icons/betchagame-arrow-right.svg" alt="arrow-right" />
                 </button>
               </div>
             </div>
-            <div class="betchagame-reviews_list">
-              <ul>
-                <li class="betchagame-review_item">
-                  <p class="betchagame-word-wrapper review_text">
-                    “Love the rush! I jump in during my lunch break and boom —
-                    pure fun. No pressure, just good vibes.”
-                  </p>
-                  <div class="betchagame-review_card_bttm">
-                    <div class="betchagame-stars-review">
-                      <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
-                      <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
-                      <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
-                      <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
-                      <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
-                    </div>
-                    <div>
-                      <p class="betchagame-name_review">Tina R.</p>
-                    </div>
-                  </div>
-                </li>
-                <li class="betchagame-review_item">
-                  <p class="betchagame-word-wrapper review_text">
-                    “The games are so smooth and exciting. Feels like Vegas
-                    without leaving my couch!”
-                  </p>
-                  <div class="betchagame-review_card_bttm">
-                    <div class="betchagame-stars-review">
-                      <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
-                      <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
-                      <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
-                      <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
-                      <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
-                    </div>
-                    <div>
-                      <p class="betchagame-name_review">Leo D.</p>
-                    </div>
-                  </div>
-                </li>
-                <li class="betchagame-review_item">
-                  <p class="betchagame-word-wrapper review_text">
-                    “I play with my friends every evening. We compete for
-                    bragging rights — no money, just pride!”
-                  </p>
-                  <div class="betchagame-review_card_bttm">
-                    <div class="betchagame-stars-review">
-                      <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
-                      <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
-                      <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
-                      <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
-                      <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
-                    </div>
-                    <div>
-                      <p class="betchagame-name_review">Jess M.</p>
-                    </div>
-                  </div>
-                </li>
-                <li class="betchagame-review_item">
-                  <p class="betchagame-word-wrapper review_text">
-                    “Bright lights, fun spins, and daily rewards? I’m hooked.
-                    It’s my favorite way to unwind.”
-                  </p>
-                  <div class="betchagame-review_card_bttm">
-                    <div class="betchagame-stars-review">
-                      <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
-                      <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
-                      <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
-                      <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
-                      <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
-                    </div>
-                    <div>
-                      <p class="betchagame-name_review">Nina K.</p>
-                    </div>
-                  </div>
-                </li>
-              </ul>
+<!-- Swiper block -->
+    <div class="swiper betchagame-reviews_list">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" style="max-width: 400px">
+          <li class="betchagame-review_item">
+            <p class="word-wrapper review_text">
+              “Love the rush! I jump in during my lunch break and boom — pure fun. No pressure, just good vibes.”
+            </p>
+            <div class="betchagame-review_card_bttm">
+              <div class="betchagame-stars-review">
+                <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
+                <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
+                <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
+                <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
+                <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
+              </div>
+              <p class="betchagame-name_review">Tina R.</p>
             </div>
-          </div>
-        </section>
+          </li>
+        </div>
+        <div class="swiper-slide" style="max-width: 400px">
+          <li class="betchagame-review_item">
+            <p class="betchagame-word-wrapper review_text">
+              “The games are so smooth and exciting. Feels like Vegas without leaving my couch!”
+            </p>
+            <div class="betchagame-review_card_bttm">
+              <div class="betchagame-stars-review">
+                <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
+                <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
+                <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
+                <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
+                <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
+              </div>
+              <p class="betchagame-name_review">Leo D.</p>
+            </div>
+          </li>
+        </div>
+        <div class="swiper-slide" style="max-width: 400px">
+          <li class="betchagame-review_item">
+            <p class="betchagame-word-wrapper review_text">
+              “I play with my friends every evening. We compete for bragging rights — no money, just pride!”
+            </p>
+            <div class="betchagame-review_card_bttm">
+              <div class="betchagame-stars-review">
+                <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
+                <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
+                <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
+                <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
+                <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
+              </div>
+              <p class="betchagame-name_review">Jess M.</p>
+            </div>
+          </li>
+        </div>
+        <div class="swiper-slide" style="max-width: 400px">
+          <li class="betchagame-review_item">
+            <p class="betchagame-word-wrapper review_text">
+              “Bright lights, fun spins, and daily rewards? I’m hooked. It’s my favorite way to unwind.”
+            </p>
+            <div class="betchagame-review_card_bttm">
+              <div class="betchagame-stars-review">
+                <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
+                <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
+                <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
+                <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
+                <img src="betchagame-icons/betchagame-star-review.svg" alt="star-review" />
+              </div>
+              <p class="betchagame-name_review">Nina K.</p>
+            </div>
+          </li>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
         <section class="betchagame-join_game">
           <div class="betchagame-join_game_content container">
             <img
@@ -344,5 +348,26 @@
        <?php include 'footer.php'; ?>
     </div>
   </body>
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    new Swiper(".betchagame-reviews_list", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        768: {
+          slidesPerView: 2,
+        },
+        1024: {
+          slidesPerView: 3,
+        },
+      },
+    });
+  });
+</script>
 </html>
 

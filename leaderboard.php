@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/betchagame-css/betchagame-leaderboard.css" />
-    <link rel="canonical" href="https://betchagame.co.nz/leaderboard.html" />
+    <link rel="canonical" href="https://betchagame.co.nz/leaderboard" />
     <link
       rel="preload"
       href="/betchagame-fonts/rubik-webfont/betchagame-Rubik-Bold.woff"

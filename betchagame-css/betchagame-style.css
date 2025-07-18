@@ -537,6 +537,7 @@ header {
   gap: 20px;
   padding: 0;
   margin: 0;
+  list-style: none;
 }
 
 @media (max-width: 991px) {
@@ -759,6 +760,7 @@ header {
 }
 
 .betchagame-reviews_content {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -782,12 +784,18 @@ header {
   justify-content: space-between;
 }
 
+.betchagame-review_togglers {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
 .betchagame-toggle-reviews-btn {
   width: 45px;
   height: 45px;
   border-radius: 100%;
+  background: #28a745;
   border: none;
-  background: var(--button-color);
 }
 
 @media (max-width: 459px) {
@@ -797,12 +805,10 @@ header {
 }
 
 .betchagame-reviews_list {
-  width: 100%;
-  margin: 0 auto;
-  overflow-x: auto;
+  max-width: 1400px;
 }
 
-.betchagame-reviews_list ul {
+.betchagame-reviews_list {
   display: flex;
   flex-direction: row;
   gap: 20px;
@@ -812,26 +818,41 @@ header {
 }
 
 @media (max-width: 459px) {
-  .betchagame-reviews_list ul {
+  .betchagame-reviews_list {
     flex-direction: column;
     align-items: center;
   }
 }
 
-.betchagame-reviews_list ul .betchagame-review_item {
-  width: 400px;
-  box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.3);
+.betchagame-reviews_list .swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.betchagame-reviews_list .betchagame-review_item {
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
   background: #fff;
   border-radius: 10px;
   padding: 24px;
   display: flex;
   flex-direction: column;
-  display: inline-block;
+  user-select: none;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .betchagame-reviews_list .betchagame-review_item {
+    max-width: 90%;
+    padding: 20px;
+  }
 }
 
 @media (max-width: 459px) {
-  .betchagame-reviews_list ul .betchagame-review_item {
-    max-width: 328px;
+  .betchagame-reviews_list .betchagame-review_item {
+    max-width: 100%;
+    padding: 16px;
   }
 }
 
@@ -1299,4 +1320,47 @@ footer {
   border: none;
   font-size: 24px;
   cursor: pointer;
+}
+
+.slider__wrapper {
+  margin-bottom: 20px;
+}
+
+.slider__wrapper_grid {
+  display: grid;
+  grid-template: auto / repeat(2, 1fr);
+  gap: 40px;
+}
+
+.slider__controls_n {
+  display: none;
+}
+
+.slider__wrapper_grid .slider__slide {
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .mb:not(:last-child) {
+    margin-bottom: 60px;
+  }
+
+  .slider__wrapper_grid .slider__slide {
+    width: 400px;
+  }
+
+  .slider__wrapper_grid {
+    display: flex;
+    gap: 0;
+  }
+
+  .slider__controls_n {
+    display: flex;
+  }
+}
+
+@media (max-width: 600px) {
+  .slider__slide {
+    width: 100%;
+  }
 }
