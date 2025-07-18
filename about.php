@@ -12,6 +12,7 @@
       type="font/woff"
       crossorigin
     />
+  <link rel="icon" href="/favicon.png" type="image/png">
     <title>About BetchaGame – Social Gaming & Prediction Platform NZ</title>
     <meta name="description" content="Discover BetchaGame, New Zealand’s social gaming platform for fun challenges, leaderboards, and zero-risk competition. No real-money bets — just points, pride, and play." />
     <script src="/betchagame-js/betchagame-index.js" defer></script>

@@ -12,6 +12,7 @@
       type="font/woff"
       crossorigin
     />
+  <link rel="icon" href="/favicon.png" type="image/png">
     <title>Privacy Policy – BetchaGame Data Protection & User Privacy NZ</title>
     <meta name="description" content="Understand how BetchaGame collects, uses, and protects your personal information. Our Privacy Policy ensures your data is safe while you enjoy social gaming in New Zealand." />
     <script src="/betchagame-js/betchagame-index.js" defer></script>

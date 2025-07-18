@@ -12,6 +12,7 @@
       type="font/woff"
       crossorigin
     />
+  <link rel="icon" href="/favicon.png" type="image/png">
     <title>Terms of Use – BetchaGame Social Gaming Platform NZ</title>
     <meta name="description" content="Read the Terms of Use for BetchaGame, New Zealand’s social gaming platform. Learn about user responsibilities, eligibility, and platform rules to enjoy safe and fair play." />
     <script src="/betchagame-js/betchagame-index.js" defer></script>

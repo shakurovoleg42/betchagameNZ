@@ -12,6 +12,7 @@
       type="font/woff"
       crossorigin
     />
+  <link rel="icon" href="/favicon.png" type="image/png">
     <title>FAQ – BetchaGame Help & Player Support</title>
     <meta name="description" content="Find answers to common questions about BetchaGame. Learn how to play, earn points, join challenges, and get support — everything you need to enjoy social gaming in NZ." />
     <script src="/betchagame-js/betchagame-index.js" defer></script>

@@ -12,6 +12,7 @@
       type="font/woff"
       crossorigin
     />
+  <link rel="icon" href="/favicon.png" type="image/png">
     <title>Contact Us – BetchaGame Support & Help NZ</title>
     <meta name="description" content="Need assistance or have questions? Contact the BetchaGame support team for quick help with your account, games, or technical issues. We’re here to assist you anytime." />
     <script src="/betchagame-js/betchagame-index.js" defer></script>

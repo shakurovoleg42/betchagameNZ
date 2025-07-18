@@ -19,6 +19,7 @@
       type="font/woff"
       crossorigin
     />
+  <link rel="icon" href="/favicon.png" type="image/png">
     <script src="/betchagame-js/betchagame-index.js" defer></script>
     <title>About BetchaGame – Social Gaming & Prediction Platform NZ</title>
     <script src="/betchagame-js/betchagame-index.js" defer></script>

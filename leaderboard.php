@@ -12,6 +12,7 @@
       type="font/woff"
       crossorigin
     />
+  <link rel="icon" href="/favicon.png" type="image/png">
     <title>Leaders of the Week – Top Players at BetchaGame</title>
     <meta name="description" content="Meet the top-performing players of the week on BetchaGame. Check out who’s dominating the leaderboard, earning badges, and setting the pace in social casino challenges." />
     <script src="/betchagame-js/betchagame-index.js" defer></script>
