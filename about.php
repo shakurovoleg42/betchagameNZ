@@ -1,27 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/betchagame-css/betchagame-about.css" />
-    <link rel="canonical" href="https://betchagame.co.nz/about" />
-    <link
-      rel="preload"
-      href="/betchagame-fonts/rubik-webfont/betchagame-Rubik-Bold.woff"
-      as="font"
-      type="font/woff"
-      crossorigin
-    />
-  <link rel="icon" href="/favicon.png" type="image/png">
-    <title>About BetchaGame – Social Gaming & Prediction Platform NZ</title>
-    <meta name="description" content="Discover BetchaGame, New Zealand’s social gaming platform for fun challenges, leaderboards, and zero-risk competition. No real-money bets — just points, pride, and play." />
-    <script src="/betchagame-js/betchagame-index.js" defer></script>
-  </head>
-    <body>
+<!DOCTYPE html> 
+<?php
+include 'head.php';
+?>
     <div class="betchagame-page">
       <?php include 'header.php'; ?>
       <main>
-        <section class="betchagame-hero">
+        <section class="betchagame-hero about-section">
           <div class="betchagame-hero__content container">
             <h1>About Betcha Game</h1>
           </div>

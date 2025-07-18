@@ -1,28 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/betchagame-css/betchagame-contact.css" />
-    <link rel="canonical" href="https://betchagame.co.nz/contact" />
-    <link
-      rel="preload"
-      href="/betchagame-fonts/rubik-webfont/betchagame-Rubik-Bold.woff"
-      as="font"
-      type="font/woff"
-      crossorigin
-    />
-  <link rel="icon" href="/favicon.png" type="image/png">
-    <title>Contact Us – BetchaGame Support & Help NZ</title>
-    <meta name="description" content="Need assistance or have questions? Contact the BetchaGame support team for quick help with your account, games, or technical issues. We’re here to assist you anytime." />
-    <script src="/betchagame-js/betchagame-index.js" defer></script>
-
-  </head>
-  <body>
+<!DOCTYPE html> 
+<?php
+include 'head.php';
+?>
     <div class="betchagame-page">
       <?php include 'header.php'; ?>
       <main>
-        <section class="betchagame-contact">
+        <section class="betchagame-hero contact-section">
+          <div class="betchagame-hero__content container">
+            <h1>Contact Us</h1>
+          </div>
+        </section>
+        <section class="betchagame-contact ">
           <div class="betchagame-contact__content container">
             <form id="contactForm">
               <input type="text" name="name" placeholder="Name" required />

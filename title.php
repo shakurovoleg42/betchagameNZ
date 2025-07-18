@@ -23,14 +23,14 @@ $description_arr = array(
   '/play/index.php' => 'Spin and win with top free games like Money Train 2, Champions of Mithrune, and 5 Wild Buffalo. Join BetchaGame and play online slots with no real-money bets — just fun, points, and bragging rights.'
 );
 
-$styles_arr = array(
-  '/index.php' => '/betchagame-css/betchagame-style.css',
-  '/about.php' => '/betchagame-css/betchagame-about.css',
-  '/contact.php' => '/betchagame-css/betchagame-cpntact.css',
-  '/faq.php' => '/betchagame-css/betchagame-faq.css',
-  '/leaderboard.php' => '/betchagame-css/betchagame-leaderboard.css',
-  '/legal-disclaimer.php' => '/betchagame-css/betchagame-faq.css',
-  '/privacy-policy.php' => '/betchagame-css/betchagame-faq.css',
-  '/terms-of-use.php' => '/betchagame-css/betchagame-faq.css',
-  '/play/index.php' => '/betchagame-css/betchagame-play.css'
-);
+// $styles_arr = array(
+//   '/index.php' => '/betchagame-css/betchagame-style.css',
+//   '/about.php' => '/betchagame-css/betchagame-about.css',
+//   '/contact.php' => '/betchagame-css/betchagame-cpntact.css',
+//   '/faq.php' => '/betchagame-css/betchagame-faq.css',
+//   '/leaderboard.php' => '/betchagame-css/betchagame-leaderboard.css',
+//   '/legal-disclaimer.php' => '/betchagame-css/betchagame-faq.css',
+//   '/privacy-policy.php' => '/betchagame-css/betchagame-faq.css',
+//   '/terms-of-use.php' => '/betchagame-css/betchagame-faq.css',
+//   '/play/index.php' => '/betchagame-css/betchagame-play.css'
+// );

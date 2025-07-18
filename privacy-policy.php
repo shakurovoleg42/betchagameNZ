@@ -1,27 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/betchagame-css/betchagame-faq.css" />
-    <link rel="canonical" href="https://betchagame.co.nz/privacy-policy" />
-    <link
-      rel="preload"
-      href="/betchagame-fonts/rubik-webfont/betchagame-Rubik-Bold.woff"
-      as="font"
-      type="font/woff"
-      crossorigin
-    />
-  <link rel="icon" href="/favicon.png" type="image/png">
-    <title>Privacy Policy – BetchaGame Data Protection & User Privacy NZ</title>
-    <meta name="description" content="Understand how BetchaGame collects, uses, and protects your personal information. Our Privacy Policy ensures your data is safe while you enjoy social gaming in New Zealand." />
-    <script src="/betchagame-js/betchagame-index.js" defer></script>
-  </head>
-  <body>
+<!DOCTYPE html> 
+<?php
+include 'head.php';
+?>
     <div class="betchagame-page">
       <?php include 'header.php'; ?>
       <main>
-        <section class="betchagame-hero">
+        <section class="betchagame-hero privacy-policy-section">
           <div class="betchagame-hero__content container">
             <h1>Privacy Policy</h1>
           </div>

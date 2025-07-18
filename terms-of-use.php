@@ -1,27 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/betchagame-css/betchagame-faq.css" />
-    <link rel="canonical" href="https://betchagame.co.nz/terms-of-use" />
-    <link
-      rel="preload"
-      href="/betchagame-fonts/rubik-webfont/betchagame-Rubik-Bold.woff"
-      as="font"
-      type="font/woff"
-      crossorigin
-    />
-  <link rel="icon" href="/favicon.png" type="image/png">
-    <title>Terms of Use – BetchaGame Social Gaming Platform NZ</title>
-    <meta name="description" content="Read the Terms of Use for BetchaGame, New Zealand’s social gaming platform. Learn about user responsibilities, eligibility, and platform rules to enjoy safe and fair play." />
-    <script src="/betchagame-js/betchagame-index.js" defer></script>
-  </head>
-  <body>
+<!DOCTYPE html> 
+<?php
+include 'head.php';
+?>
     <div class="betchagame-page">
       <?php include 'header.php'; ?>
       <main>
-        <section class="betchagame-hero">
+        <section class="betchagame-hero terms-of-use-section">
           <div class="betchagame-hero__content container">
             <h1>Terms of Use</h1>
           </div>

@@ -11,14 +11,14 @@
   <meta name="robots" content="index, follow">
   <meta property="og:locale" content="en_NZ">
   <meta property="og:url" content="https://betchagame.co.nz/">
-  <meta property="og:image" content="https://betchagame.co.nz/main.png">
+  <!-- <meta property="og:image" content="https://betchagame.co.nz/main.png"> -->
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="BetchaGame Social Casino">
   <meta property="og:image:type" content="image/png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="https://betchagame.co.nz/">
-  <meta name="twitter:image" content="https://betchagame.co.nz/main.png">
+  <!-- <meta name="twitter:image" content="https://betchagame.co.nz/main.png"> -->
 
   <!-- Favicon -->
   <link rel="icon" href="/favicon.png" type="image/png">
@@ -27,6 +27,7 @@
   <link rel="preload" href="/betchagame-fonts/rubik-webfont/betchagame-Rubik-Bold.woff" as="font" type="font/woff" crossorigin>
 
   <!-- CSS -->
+  <link rel="stylesheet" href="/betchagame-css/input.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 
   <!-- JS -->
@@ -49,7 +50,7 @@
       <meta property="og:title" content="' . $title_arr[$_SERVER["SCRIPT_NAME"]] . '">
       <meta name="twitter:title" content="' . $title_arr[$_SERVER["SCRIPT_NAME"]] . '">
       <title>' . $title_arr[$_SERVER["SCRIPT_NAME"]] . '</title>
-      <link rel="stylesheet" href="' . $styles_arr[$_SERVER["SCRIPT_NAME"]] . '">
       ';
+      // <link rel="stylesheet" href="' . $styles_arr[$_SERVER["SCRIPT_NAME"]] . '">
   ?>
 </head>

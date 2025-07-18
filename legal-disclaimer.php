@@ -1,23 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/betchagame-css/betchagame-faq.css" />
-    <link rel="canonical" href="https://betchagame.co.nz/legal-disclaimer" />
-    <link
-      rel="preload"
-      href="/betchagame-fonts/rubik-webfont/betchagame-Rubik-Bold.woff"
-      as="font"
-      type="font/woff"
-      crossorigin
-    />
-  <link rel="icon" href="/favicon.png" type="image/png">
-    <title>Disclaimer – BetchaGame Social Gaming Platform NZ</title>
-    <meta name="description" content="Important disclaimer for BetchaGame users: social prediction games for entertainment only, no real-money gambling, 18+ age restriction. Play responsibly and stay informed." />
-    <script src="/betchagame-js/betchagame-index.js" defer></script>
-  </head>
-  <body>
+<!DOCTYPE html> 
+<?php
+include 'head.php';
+?>
     <div class="betchagame-page">
       <?php include 'header.php'; ?>
       <main>

@@ -1,27 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/betchagame-css/betchagame-leaderboard.css" />
-    <link rel="canonical" href="https://betchagame.co.nz/leaderboard" />
-    <link
-      rel="preload"
-      href="/betchagame-fonts/rubik-webfont/betchagame-Rubik-Bold.woff"
-      as="font"
-      type="font/woff"
-      crossorigin
-    />
-  <link rel="icon" href="/favicon.png" type="image/png">
-    <title>Leaders of the Week – Top Players at BetchaGame</title>
-    <meta name="description" content="Meet the top-performing players of the week on BetchaGame. Check out who’s dominating the leaderboard, earning badges, and setting the pace in social casino challenges." />
-    <script src="/betchagame-js/betchagame-index.js" defer></script>
-  </head>
-  <body>
+<!DOCTYPE html> 
+<?php
+include 'head.php';
+?>
     <div class="betchagame-page">
       <?php include 'header.php'; ?>
       <main>
-        <section class="betchagame-hero">
+        <section class="betchagame-hero leadership-section">
           <div class="betchagame-hero__content container">
             <h1>Top Players</h1>
           </div>

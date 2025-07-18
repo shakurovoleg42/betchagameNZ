@@ -1,25 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/betchagame-css/betchagame-play.css" />
-    <link rel="canonical" href="https://betchagame.co.nz/play" />
-    <link
-      rel="preload"
-      href="/betchagame-fonts/rubik-webfont/betchagame-Rubik-Bold.woff"
-      as="font"
-      type="font/woff"
-      crossorigin
-    />
-    <title>Play Free Social Casino Games – Money Train 2, Slashimi & More</title>
-    <meta name="description" content="Spin and win with top free games like Money Train 2, Champions of Mithrune, and 5 Wild Buffalo. Join BetchaGame and play online slots with no real-money bets — just fun, points, and bragging rights." />
-  </head>
-  <body>
+<!DOCTYPE html> 
+<?php include(dirname(__DIR__) . '/head.php'); ?>
     <div class="betchagame-page">
       <?php include(dirname(__DIR__) . '/header.php'); ?>
       <main>
-        <section class="betchagame-hero">
+        <section class="betchagame-hero play-section">
           <div class="betchagame-hero__content container">
             <h1>Play</h1>
           </div>
