@@ -1,33 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/betchagame-css/betchagame-style.css" />
-    <link rel="canonical" href="https://betchagame.co.nz" />
-    <link
-      rel="preload"
-      href="/betchagame-fonts/rubik-webfont/betchagame-Rubik-Bold.woff"
-      as="font"
-      type="font/woff"
-      crossorigin
-    />
-  <link rel="icon" href="/favicon.png" type="image/png">
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  <script defer src="swiper/swiper.js"></script>
-
-    <script src="/betchagame-js/betchagame-index.js" defer></script>
-    <title>Challenge Friends & Play Free – Social Casino & Prediction Games NZ</title>
-    <meta name="description" content="Join BetchaGame, New Zealand’s top social casino platform. Sign up, make predictions, earn points, and climb the leaderboard — all for fun, no real-money betting." />
-  
-  </head>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-  <body>
-    
-      <?php include 'header.php'; ?>
+<!DOCTYPE html> 
+<?php
+include 'head.php';
+?>
       <main>
+      <?php include 'header.php'; ?>
+
         <!-- hero section  -->
         <section class="betchagame-hero">
           <div class="betchagame-hero__content container">
