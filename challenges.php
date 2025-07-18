@@ -21,6 +21,7 @@
     />
     <script src="/betchagame-js/betchagame-index.js" defer></script>
     <title>About BetchaGame – Social Gaming & Prediction Platform NZ</title>
+    <script src="/betchagame-js/betchagame-index.js" defer></script>
     <meta name="description" content="Discover BetchaGame, New Zealand’s social gaming platform for fun challenges, leaderboards, and zero-risk competition. No real-money bets — just points, pride, and play." /></head>
   <body>
     <div class="betchagame-page">

@@ -13,8 +13,10 @@
       crossorigin
     />
     <title>About BetchaGame – Social Gaming & Prediction Platform NZ</title>
-    <meta name="description" content="Discover BetchaGame, New Zealand’s social gaming platform for fun challenges, leaderboards, and zero-risk competition. No real-money bets — just points, pride, and play." /></head>
-  <body>
+    <meta name="description" content="Discover BetchaGame, New Zealand’s social gaming platform for fun challenges, leaderboards, and zero-risk competition. No real-money bets — just points, pride, and play." />
+    <script src="/betchagame-js/betchagame-index.js" defer></script>
+  </head>
+    <body>
     <div class="betchagame-page">
       <?php include 'header.php'; ?>
       <main>

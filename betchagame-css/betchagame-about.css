@@ -772,3 +772,55 @@ h2 {
   font-size: 24px;
   cursor: pointer;
 }
+.popup-message {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: none; /* скрыт по умолчанию */
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.popup-message__content {
+  background: #1e1e2f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12.12px;
+  padding: 40px;
+}
+
+.popup-message__content p {
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+
+.popup-message__content .betchagame-default__button {
+  border-radius: 20px;
+  border: none;
+  padding: 10px 60px;
+  width: 325px;
+  height: 58px;
+  background: linear-gradient(180deg, #28a745 0%, #3ef969 100%);
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 211%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #070707;
+}
+
+.hidden {
+  display: none !important;
+}

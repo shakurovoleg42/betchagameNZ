@@ -23,22 +23,7 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
   <body>
-    <div class="betchagame-popup-wrapper">
-      <div class="betchagame-popup-overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-color: rgba(0, 0, 0, 0.5); z-index: 9999;"></div>
-      <div class="betchagame-popup" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 99999;">
-        <div class="betchagame-popup-content">
-          <h2>Welcome to BetchaGame!</h2>
-          <p>
-            Are you 18 or older?
-          </p>
-          <button class="betchagame-default__button" id="popup-close">
-            Yes, I am over 18
-          </button>
-        </div>
-      </div>
-    </div>
     
-    <div class="betchagame-page">
       <?php include 'header.php'; ?>
       <main>
         <!-- hero section  -->

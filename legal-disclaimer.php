@@ -14,6 +14,7 @@
     />
     <title>Disclaimer – BetchaGame Social Gaming Platform NZ</title>
     <meta name="description" content="Important disclaimer for BetchaGame users: social prediction games for entertainment only, no real-money gambling, 18+ age restriction. Play responsibly and stay informed." />
+    <script src="/betchagame-js/betchagame-index.js" defer></script>
   </head>
   <body>
     <div class="betchagame-page">
