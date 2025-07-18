@@ -58,25 +58,24 @@ function isActive($page, $current) {
   <span class="register-tab" data-tab="register">Register</span>
 </div>
     
-    <form id="authForm" action="/mail.php" method="POST" enctype="multipart/form-data">
-      <div class="form-group username-group">
-        <label for="username">Username</label>
-        <input type="text" id="username" name="username" placeholder="Username" required autocomplete="off">
-      </div>
-      <div class="form-group email-group" style="margin-top: 20px">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="Email"  autocomplete="off">
-      </div>
-      <div class="form-group password-group" style="margin-top: 20px">
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password" placeholder="Password"  autocomplete="off">
-      </div>
-      <button type="submit" class="betchagame-default__button" style="margin-top: 20px">Register</button>
-    </form>
-
+  <form id="authForm" action="/mail.php" method="POST" enctype="multipart/form-data">
+    <div class="form-group username-group">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" placeholder="Username" required autocomplete="off">
+    </div>
+    <div class="form-group email-group" style="margin-top: 20px">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Email"  autocomplete="off">
+    </div>
+    <div class="form-group password-group" style="margin-top: 20px">
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="Password"  autocomplete="off">
+    </div>
+    <button type="submit" class="betchagame-default__button" style="margin-top: 20px">Register</button>
+  </form>
   </div>
-  
 </div>
+
 <div class="popup-message" id="popupMessage">
   <div class="popup-message__content" id="popupContent">
     <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">

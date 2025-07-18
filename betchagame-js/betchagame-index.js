@@ -93,29 +93,33 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // === Sign Up / Log In popup open ===
-  document.querySelectorAll(".betchagame-default__button").forEach((btn) => {
-    const text = btn.textContent.trim();
+  document
+    .querySelectorAll(
+      ".betchagame-default__button, .betchagame-join_banner_btn "
+    )
+    .forEach((btn) => {
+      const text = btn.textContent.trim();
 
-    if (text === "Sign Up" || text === "Log In") {
-      btn.addEventListener("click", () => {
-        const signupPopup = document.getElementById("signupPopup");
-        const form = document.getElementById("authForm");
+      if (text === "Sign Up" || text === "Log In") {
+        btn.addEventListener("click", () => {
+          const signupPopup = document.getElementById("signupPopup");
+          const form = document.getElementById("authForm");
 
-        if (signupPopup && form) {
-          signupPopup.classList.add("show");
-          form.style.display = "block"; // ✅ Показываем форму снова
-        }
+          if (signupPopup && form) {
+            signupPopup.classList.add("show");
+            form.style.display = "block";
+          }
 
-        const targetTab = text === "Sign Up" ? "register" : "login";
+          const targetTab = text === "Sign Up" ? "register" : "login";
 
-        document.querySelectorAll(".register-tab").forEach((tab) => {
-          tab.classList.toggle("active-tab", tab.dataset.tab === targetTab);
+          document.querySelectorAll(".register-tab").forEach((tab) => {
+            tab.classList.toggle("active-tab", tab.dataset.tab === targetTab);
+          });
+
+          updateFormByTab(targetTab);
         });
-
-        updateFormByTab(targetTab);
-      });
-    }
-  });
+      }
+    });
 
   const popupMessageClose = document.getElementById("popupMessageClose");
   if (popupMessageClose) {
